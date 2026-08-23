@@ -156,7 +156,9 @@ function renderFeed(state) {
       </div>`,
     )
     .join('');
-  return `<section id="feed"><div class="board">${rows}</div></section>`;
+  return `<section id="feed"><p class="feednote">Found <em>for</em> you — you haven't registered for these.
+    Interested? Sign up on its page, then track it via <strong>Actions → scan → add_url</strong>
+    so it moves to your Active board.</p><div class="board">${rows}</div></section>`;
 }
 
 function renderReview(state) {

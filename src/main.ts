@@ -18,6 +18,8 @@ import { zConfig, type Candidate, type Config, type Hackathon } from './types.js
 
 const STATE_PATH = 'state.json';
 const CONFIG_PATH = 'config.json';
+/** Discovery candidates not sighted again within this many days expire. */
+export const STALE_CANDIDATE_DAYS = 30;
 
 export interface QueuedSend {
   hackathon: Hackathon;
@@ -198,6 +200,19 @@ export async function runPipeline(opts: RunOptions = {}): Promise<RunSummary> {
   // -- 2. FILTER ------------------------------------------------------------
   log('[2/7] FILTER: scoring against your preferences...');
   const list = await load(statePath);
+
+  // Feed hygiene: a discovery candidate stays fresh only while it keeps
+  // appearing in its source's listing (each sighting bumps last_seen). Once
+  // the event ends it vanishes from listings, last_seen goes stale, and after
+  // STALE_CANDIDATE_DAYS it moves to passed — out of your feed.
+  for (const h of list) {
+    if (h.status !== 'candidate' || !h.last_seen) continue;
+    const ageDays = (now.getTime() - Date.parse(h.last_seen)) / 86_400_000;
+    if (Number.isFinite(ageDays) && ageDays > STALE_CANDIDATE_DAYS) {
+      h.status = 'passed';
+      log(`[2/7] FILTER: stale candidate expired -> ${h.id} marked passed`);
+    }
+  }
 
   // Link-drop (Input C): register the pasted URL as a tracked event.
   if (opts.addUrl) {

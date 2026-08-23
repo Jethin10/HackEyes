@@ -281,6 +281,28 @@ describe('runPipeline end-to-end (offline, fixtures, faked clock)', () => {
     expect(rec.rounds[0].deliverables.length).toBeGreaterThan(0);
   });
 
+  it('stale candidates expire out of the feed', async () => {
+    const stale = [
+      {
+        id: 'devpost-old-event',
+        name: 'Old Event',
+        source: 'devpost',
+        url: 'https://old.devpost.com/',
+        detected_by: 'discovery',
+        status: 'candidate',
+        tags: ['ai'],
+        rounds: [],
+        last_seen: new Date(NOW.getTime() - 45 * 86_400_000).toISOString(),
+      },
+    ];
+    const h = await harness(stale);
+    await h.run({
+      fetchAllImpl: async () => ({ candidates: [], failures: [] }),
+    });
+    const after = JSON.parse(await readFile(h.stateFile, 'utf8'));
+    expect(after.hackathons[0].status).toBe('passed');
+  });
+
   it('link-drop ignores a URL that is already tracked', async () => {
     const seeded = [
       {
