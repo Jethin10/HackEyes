@@ -93,10 +93,14 @@ describe('filter.score / passes', () => {
     expect(score(c, CFG, NOW)).toBeCloseTo(1, 10);
   });
 
-  it('indian city locations without the word "India" still earn tag+mode credit', () => {
-    // MLH-style "Hyderabad, Telangana" — region component misses, rest carries.
+  it('indian city without the word "India" misses region credit: exact score', () => {
+    // MLH-style "Hyderabad, Telangana" — region component misses (no
+    // \bindia\b token), so score = (1/6 overlap × 0.6) + 0 + mode 0.2 = 0.3.
+    // Adapters synthesize tags from titles (T6) so real Indian events still
+    // clear the bar via richer tag overlap.
     const c = candidate({ tags: ['ai'], location: 'Hyderabad, Telangana' });
-    expect(score(c, CFG, NOW)).toBeGreaterThan(0.4);
+    expect(score(c, CFG, NOW)).toBeCloseTo(0.3, 10);
+    expect(passes(c, CFG, NOW)).toBe(false);
   });
 
   it('score is always within 0..1', () => {
