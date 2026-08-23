@@ -77,3 +77,34 @@ export function due(
   }
   return out;
 }
+
+/** Dedupe ledger entry shape, e.g. "r2:T-72h" (Part I §7 step 5). */
+export function sentKey(roundN: number, threshold: Threshold): string {
+  return `r${roundN}:${threshold}`;
+}
+
+/**
+ * Events from due() filtered by the hackathon's dedupe ledger. Pure — the
+ * caller sends, then records via markSent. A second run with the same clock
+ * therefore sends nothing.
+ */
+export function selectUnsent(
+  h: Hackathon,
+  now: Date,
+): Array<{ round: Round; threshold: Threshold }> {
+  const already = new Set(h.sent ?? []);
+  return due(h, now).filter(
+    (e) => !already.has(sentKey(e.round.n, e.threshold)),
+  );
+}
+
+/** Records actually-sent notifications on the record (mutates h.sent). */
+export function markSent(
+  h: Hackathon,
+  events: Array<{ round: Round; threshold: Threshold }>,
+): void {
+  if (events.length === 0) return;
+  const set = new Set(h.sent ?? []);
+  for (const e of events) set.add(sentKey(e.round.n, e.threshold));
+  h.sent = [...set];
+}
