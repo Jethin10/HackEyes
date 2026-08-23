@@ -1,0 +1,27 @@
+{
+  "name": "submission-window",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A hackathon tracker that nags you about deliverables, not deadlines.",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "build": "tsc --noEmit",
+    "test": "vitest run",
+    "scan": "tsx src/main.ts",
+    "scan:dry": "tsx src/main.ts --dry-run",
+    "tick": "tsx src/main.ts tick"
+  },
+  "dependencies": {
+    "node-html-parser": "^7.0.1",
+    "zod": "^3.25.76"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.0",
+    "tsx": "^4.19.2",
+    "typescript": "^5.8.3",
+    "vitest": "^3.1.4"
+  }
+}

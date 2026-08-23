@@ -1,0 +1,16 @@
+{
+  "interests": ["ai", "agents", "ml", "web3", "fintech", "devtools"],
+  "exclude": ["biotech", "hardware-only"],
+  "mode": ["online", "hybrid"],
+  "regions": ["IN", "remote"],
+  "team_size": { "min": 1, "max": 4 },
+  "min_prize_inr": 25000,
+  "min_lead_days": 5,
+  "platforms": ["unstop", "mlh", "devfolio", "devpost"],
+  "notify": {
+    "channel": "ntfy",
+    "topic": "",
+    "quiet_hours": [0, 7]
+  },
+  "model": "opencode/deepseek-v4-flash"
+}
