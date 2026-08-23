@@ -1,1 +1,130 @@
-{ "hackathons": [] }
+{
+  "hackathons": [
+    {
+      "id": "devpost-agentic-cinema-the-blockbuster-hackathon",
+      "name": "Agentic Cinema: The Blockbuster Hackathon",
+      "source": "devpost",
+      "url": "https://agentic-cinema.devpost.com/",
+      "detected_by": "discovery",
+      "status": "candidate",
+      "tags": [
+        "databases",
+        "machine learning/ai",
+        "open ended"
+      ],
+      "mode": "online",
+      "location": "Online",
+      "prize_inr": 6750000,
+      "rounds": [],
+      "last_seen": "2026-08-23T21:16:29.312Z"
+    },
+    {
+      "id": "devpost-all-things-agentic-hackathon",
+      "name": "All Things Agentic Hackathon",
+      "source": "devpost",
+      "url": "https://allthingsagentichackathon.devpost.com/",
+      "detected_by": "discovery",
+      "status": "candidate",
+      "tags": [
+        "enterprise",
+        "machine learning/ai",
+        "productivity"
+      ],
+      "mode": "online",
+      "location": "Online",
+      "prize_inr": 16200000,
+      "rounds": [],
+      "last_seen": "2026-08-23T21:16:29.312Z"
+    },
+    {
+      "id": "devpost-agents-for-humans-hackathon",
+      "name": "Agents for Humans Hackathon",
+      "source": "devpost",
+      "url": "https://agentsforhumans.devpost.com/",
+      "detected_by": "discovery",
+      "status": "candidate",
+      "tags": [
+        "beginner friendly",
+        "machine learning/ai",
+        "open ended"
+      ],
+      "mode": "online",
+      "location": "Online",
+      "prize_inr": 3600000,
+      "rounds": [],
+      "last_seen": "2026-08-23T21:16:29.312Z"
+    },
+    {
+      "id": "devpost-call-e-your-code-is-calling",
+      "name": "CALL-E: Your Code Is Calling",
+      "source": "devpost",
+      "url": "https://call-e.devpost.com/",
+      "detected_by": "discovery",
+      "status": "candidate",
+      "tags": [
+        "communication",
+        "enterprise",
+        "machine learning/ai"
+      ],
+      "mode": "online",
+      "location": "Online",
+      "prize_inr": 900000,
+      "rounds": [],
+      "last_seen": "2026-08-23T21:16:29.312Z"
+    },
+    {
+      "id": "devpost-reverie-hacks-2026",
+      "name": "Reverie Hacks 2026",
+      "source": "devpost",
+      "url": "https://reverie-hacks-2026.devpost.com/",
+      "detected_by": "discovery",
+      "status": "candidate",
+      "tags": [
+        "beginner friendly",
+        "machine learning/ai",
+        "open ended"
+      ],
+      "mode": "online",
+      "location": "Online",
+      "prize_inr": 280684260,
+      "rounds": [],
+      "last_seen": "2026-08-23T21:16:29.312Z"
+    },
+    {
+      "id": "devpost-ai-builders-hackathon",
+      "name": "AI Builders Hackathon",
+      "source": "devpost",
+      "url": "https://ai-builders-hackathon-2026.devpost.com/",
+      "detected_by": "discovery",
+      "status": "candidate",
+      "tags": [
+        "machine learning/ai",
+        "open ended",
+        "beginner friendly"
+      ],
+      "mode": "online",
+      "location": "Online",
+      "prize_inr": 3051000,
+      "rounds": [],
+      "last_seen": "2026-08-23T21:16:29.312Z"
+    },
+    {
+      "id": "devpost-volthacks",
+      "name": "VoltHacks",
+      "source": "devpost",
+      "url": "https://volthacks.devpost.com/",
+      "detected_by": "discovery",
+      "status": "candidate",
+      "tags": [
+        "iot",
+        "machine learning/ai",
+        "beginner friendly"
+      ],
+      "mode": "online",
+      "location": "Online",
+      "prize_inr": 3220650,
+      "rounds": [],
+      "last_seen": "2026-08-23T21:16:29.312Z"
+    }
+  ]
+}
