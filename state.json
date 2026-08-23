@@ -162,7 +162,7 @@
               "id": "submission",
               "label": "Offline Round(s) submission (see event page)",
               "kind": "other",
-              "done": true
+              "done": false
             }
           ]
         }
