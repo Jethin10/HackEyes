@@ -3,6 +3,11 @@ import { htmlToText } from './util/html.js';
 import { sha256 } from './util/hash.js';
 import { httpGet } from './util/http.js';
 import { fetchAll } from './adapters/index.js';
+import {
+  extractUnstopId,
+  looksLikeChallenge,
+  parseUnstopDetail,
+} from './adapters/unstop.js';
 import { extractRounds } from './extract.js';
 import { markSent, selectUnsent, type Threshold } from './ladder.js';
 import { composeMatchLine, composeNag, send } from './notify/index.js';
@@ -157,6 +162,50 @@ function recordFromUrl(url: string, now: Date): Hackathon {
   };
 }
 
+/**
+ * Builds a registered record from a pasted URL. Unstop URLs get the royal
+ * treatment: their public detail API yields real rounds + deliverables
+ * deterministically — no model involved. Everything else falls back to a
+ * generic record that the Zen deep-parse fills on the same run.
+ */
+async function buildRecordFromUrl(
+  url: string,
+  now: Date,
+  getPage: typeof httpGet,
+): Promise<Hackathon> {
+  const unstopId = extractUnstopId(url);
+  if (unstopId) {
+    const body = await httpGet(
+      `https://unstop.com/api/public/competition/${unstopId}`,
+      { headers: { accept: 'application/json' } },
+    );
+    if (body !== null && !looksLikeChallenge(body)) {
+      try {
+        const detail = parseUnstopDetail(body, url);
+        return {
+          id: `unstop-${unstopId}`,
+          name: detail.name,
+          source: 'unstop',
+          url,
+          detected_by: 'manual',
+          status: 'registered',
+          tags: [],
+          rounds: detail.rounds,
+          registered_at: now.toISOString().slice(0, 10),
+          last_seen: now.toISOString(),
+        };
+      } catch (err) {
+        console.warn(
+          `link-drop: unstop detail parse failed (${(err as Error).message}) — falling back`,
+        );
+      }
+    } else {
+      console.warn('link-drop: unstop detail API unreachable — falling back');
+    }
+  }
+  return recordFromUrl(url, now);
+}
+
 // ---------------------------------------------------------------------------
 // Pipeline
 // ---------------------------------------------------------------------------
@@ -218,9 +267,11 @@ export async function runPipeline(opts: RunOptions = {}): Promise<RunSummary> {
   if (opts.addUrl) {
     const key = canonicalUrl(opts.addUrl);
     if (!list.some((h) => canonicalUrl(h.url) === key)) {
-      const rec = recordFromUrl(opts.addUrl, now);
+      const rec = await buildRecordFromUrl(opts.addUrl, now, getPage);
       list.push(rec);
-      log(`[2/7] FILTER: link-drop added -> ${rec.id}`);
+      log(
+        `[2/7] FILTER: link-drop added -> ${rec.id} (${rec.rounds.length} round(s) parsed)`,
+      );
     } else {
       log('[2/7] FILTER: link-drop URL already tracked');
     }
@@ -265,6 +316,43 @@ export async function runPipeline(opts: RunOptions = {}): Promise<RunSummary> {
   log('[4/7] DEEP-PARSE: registered/active events...');
   for (const h of list) {
     if (h.status !== 'registered' && h.status !== 'active') continue;
+
+    // Unstop events have a public detail API: deterministic, offset-complete,
+    // free. Never send these pages to the model.
+    const unstopId = extractUnstopId(h.url);
+    if (unstopId) {
+      const body = await httpGet(
+        `https://unstop.com/api/public/competition/${unstopId}`,
+        { headers: { accept: 'application/json' } },
+      );
+      if (body === null || looksLikeChallenge(body)) {
+        log(`[4/7] DEEP-PARSE: ${h.id}: unstop detail unreachable, skipping`);
+        continue;
+      }
+      const hash = `sha256:${sha256(body)}`;
+      if (h.source_hash === hash) {
+        summary.skippedUnchanged++;
+        continue;
+      }
+      try {
+        const detail = parseUnstopDetail(body, h.url);
+        h.rounds = mergeRounds(h.rounds, detail.rounds); // preserves done:true
+        h.name = h.name || detail.name;
+        h.source_hash = hash;
+        h.extraction = {
+          model: 'unstop-detail-api',
+          confidence: 1,
+          needs_review: false,
+          parsed_at: now.toISOString(),
+        };
+        summary.parsedPages++;
+        log(`[4/7] DEEP-PARSE: ${h.id}: ${detail.rounds.length} round(s) via unstop API`);
+      } catch (err) {
+        log(`[4/7] DEEP-PARSE: ${h.id}: parse failed (${(err as Error).message})`);
+      }
+      continue;
+    }
+
     const page = await getPage(h.url);
     if (page === null) {
       log(`[4/7] DEEP-PARSE: ${h.id}: page unreachable, skipping`);
@@ -360,7 +448,11 @@ export async function runPipeline(opts: RunOptions = {}): Promise<RunSummary> {
 // CLI entry points
 // ---------------------------------------------------------------------------
 
-/** tick <hackathon_id> <deliverable_id>: set a deliverable to done:true. */
+/**
+ * tick <hackathon_id> <deliverable_id>: set a deliverable to done:true.
+ * Pass deliverable_id "ALL" to mark every open deliverable in the event —
+ * the "I submitted everything" button.
+ */
 export async function tickDeliverable(
   hackathonId: string,
   deliverableId: string,
@@ -372,6 +464,26 @@ export async function tickDeliverable(
     console.error(`tick: no hackathon with id "${hackathonId}"`);
     return false;
   }
+
+  if (deliverableId.toUpperCase() === 'ALL') {
+    let marked = 0;
+    for (const round of h.rounds) {
+      for (const d of round.deliverables) {
+        if (!d.done) {
+          d.done = true;
+          marked++;
+        }
+      }
+    }
+    if (marked === 0) {
+      console.log(`tick: ${hackathonId} — nothing open, already all done`);
+      return true;
+    }
+    await save(statePath, list);
+    console.log(`tick: ${hackathonId} marked ${marked} deliverable(s) done`);
+    return true;
+  }
+
   for (const round of h.rounds) {
     const d = round.deliverables.find((x) => x.id === deliverableId);
     if (d) {

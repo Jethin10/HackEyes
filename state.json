@@ -7,16 +7,16 @@
       "url": "https://agentic-cinema.devpost.com/",
       "detected_by": "discovery",
       "status": "candidate",
+      "mode": "online",
+      "location": "Online",
       "tags": [
         "databases",
         "machine learning/ai",
         "open ended"
       ],
-      "mode": "online",
-      "location": "Online",
       "prize_inr": 6750000,
       "rounds": [],
-      "last_seen": "2026-08-23T21:16:29.312Z"
+      "last_seen": "2026-08-23T21:40:45.048Z"
     },
     {
       "id": "devpost-all-things-agentic-hackathon",
@@ -25,16 +25,16 @@
       "url": "https://allthingsagentichackathon.devpost.com/",
       "detected_by": "discovery",
       "status": "candidate",
+      "mode": "online",
+      "location": "Online",
       "tags": [
         "enterprise",
         "machine learning/ai",
         "productivity"
       ],
-      "mode": "online",
-      "location": "Online",
       "prize_inr": 16200000,
       "rounds": [],
-      "last_seen": "2026-08-23T21:16:29.312Z"
+      "last_seen": "2026-08-23T21:40:45.048Z"
     },
     {
       "id": "devpost-agents-for-humans-hackathon",
@@ -43,16 +43,16 @@
       "url": "https://agentsforhumans.devpost.com/",
       "detected_by": "discovery",
       "status": "candidate",
+      "mode": "online",
+      "location": "Online",
       "tags": [
         "beginner friendly",
         "machine learning/ai",
         "open ended"
       ],
-      "mode": "online",
-      "location": "Online",
       "prize_inr": 3600000,
       "rounds": [],
-      "last_seen": "2026-08-23T21:16:29.312Z"
+      "last_seen": "2026-08-23T21:40:45.048Z"
     },
     {
       "id": "devpost-call-e-your-code-is-calling",
@@ -61,16 +61,16 @@
       "url": "https://call-e.devpost.com/",
       "detected_by": "discovery",
       "status": "candidate",
+      "mode": "online",
+      "location": "Online",
       "tags": [
         "communication",
         "enterprise",
         "machine learning/ai"
       ],
-      "mode": "online",
-      "location": "Online",
       "prize_inr": 900000,
       "rounds": [],
-      "last_seen": "2026-08-23T21:16:29.312Z"
+      "last_seen": "2026-08-23T21:40:45.048Z"
     },
     {
       "id": "devpost-reverie-hacks-2026",
@@ -79,16 +79,16 @@
       "url": "https://reverie-hacks-2026.devpost.com/",
       "detected_by": "discovery",
       "status": "candidate",
+      "mode": "online",
+      "location": "Online",
       "tags": [
         "beginner friendly",
         "machine learning/ai",
         "open ended"
       ],
-      "mode": "online",
-      "location": "Online",
       "prize_inr": 280684260,
       "rounds": [],
-      "last_seen": "2026-08-23T21:16:29.312Z"
+      "last_seen": "2026-08-23T21:40:45.048Z"
     },
     {
       "id": "devpost-ai-builders-hackathon",
@@ -97,16 +97,16 @@
       "url": "https://ai-builders-hackathon-2026.devpost.com/",
       "detected_by": "discovery",
       "status": "candidate",
+      "mode": "online",
+      "location": "Online",
       "tags": [
         "machine learning/ai",
         "open ended",
         "beginner friendly"
       ],
-      "mode": "online",
-      "location": "Online",
       "prize_inr": 3051000,
       "rounds": [],
-      "last_seen": "2026-08-23T21:16:29.312Z"
+      "last_seen": "2026-08-23T21:40:45.048Z"
     },
     {
       "id": "devpost-volthacks",
@@ -115,16 +115,131 @@
       "url": "https://volthacks.devpost.com/",
       "detected_by": "discovery",
       "status": "candidate",
+      "mode": "online",
+      "location": "Online",
       "tags": [
         "iot",
         "machine learning/ai",
         "beginner friendly"
       ],
-      "mode": "online",
-      "location": "Online",
       "prize_inr": 3220650,
       "rounds": [],
-      "last_seen": "2026-08-23T21:16:29.312Z"
+      "last_seen": "2026-08-23T21:40:45.048Z"
+    },
+    {
+      "id": "unstop-1708902",
+      "name": "Imperium - The Strategy Case Study Competition",
+      "source": "unstop",
+      "url": "https://unstop.com/competitions/imperium-the-strategy-case-study-competition-iim-indore-1708902",
+      "detected_by": "manual",
+      "status": "registered",
+      "tags": [],
+      "registered_at": "2026-08-23",
+      "rounds": [
+        {
+          "n": 1,
+          "name": "Online Quiz",
+          "opens_at": "2026-08-21T00:00:00+05:30",
+          "due_at": "2026-08-23T23:59:00+05:30",
+          "result": null,
+          "deliverables": [
+            {
+              "id": "submission",
+              "label": "Online Quiz submission (see event page)",
+              "kind": "other",
+              "done": false
+            }
+          ]
+        },
+        {
+          "n": 2,
+          "name": "Offline Round(s)",
+          "opens_at": "2026-10-30T00:00:00+05:30",
+          "due_at": "2026-11-01T23:59:00+05:30",
+          "result": null,
+          "deliverables": [
+            {
+              "id": "submission",
+              "label": "Offline Round(s) submission (see event page)",
+              "kind": "other",
+              "done": false
+            }
+          ]
+        }
+      ],
+      "extraction": {
+        "model": "unstop-detail-api",
+        "confidence": 1,
+        "needs_review": false,
+        "parsed_at": "2026-08-23T21:40:37.502Z"
+      },
+      "source_hash": "sha256:af1c7a09a428e60203794657a619193bc5dbbb74a848bfffe9e93eda5b7c75fb",
+      "last_seen": "2026-08-23T21:40:37.502Z"
+    },
+    {
+      "id": "unstop-1730805",
+      "name": "OOSC 4.0 Hackathon",
+      "source": "unstop",
+      "url": "https://unstop.com/hackathons/oosc-4o-hackathon-indian-institute-of-information-technology-iiit-allahabad-1730805",
+      "detected_by": "manual",
+      "status": "registered",
+      "tags": [],
+      "rounds": [
+        {
+          "n": 1,
+          "name": "Phase 1 – Online Prototype Submission",
+          "opens_at": "2026-08-18T13:00:00+05:30",
+          "due_at": "2026-08-23T23:59:00+05:30",
+          "result": null,
+          "deliverables": [
+            {
+              "id": "prototype-link-live-hosted",
+              "label": "Prototype Link - live/hosted if possible, otherwise clear local-run instructions in README file",
+              "kind": "build",
+              "done": false
+            },
+            {
+              "id": "github-repo-with-well",
+              "label": "GitHub repo with well-documented README",
+              "kind": "repo",
+              "done": false
+            },
+            {
+              "id": "demo-video-mandatory-highlighting",
+              "label": "Demo video (MANDATORY) — highlighting the core features (length should not exceed more than 10 minutes)",
+              "kind": "video",
+              "done": false
+            }
+          ]
+        },
+        {
+          "n": 2,
+          "name": "Final Round",
+          "opens_at": "2026-08-30T16:00:00+05:30",
+          "due_at": "2026-08-31T00:00:00+05:30",
+          "result": null,
+          "deliverables": [
+            {
+              "id": "submission",
+              "label": "Final Round submission (see event page)",
+              "kind": "other",
+              "done": false
+            }
+          ]
+        }
+      ],
+      "registered_at": "2026-08-23",
+      "last_seen": "2026-08-23T21:40:45.048Z",
+      "source_hash": "sha256:e1bd6417d0ced49ee6064998fee76862f09230c20c10e1d9c5dfd49e4be699da",
+      "extraction": {
+        "model": "unstop-detail-api",
+        "confidence": 1,
+        "needs_review": false,
+        "parsed_at": "2026-08-23T21:40:45.048Z"
+      },
+      "sent": [
+        "r2:T-7d"
+      ]
     }
   ]
 }

@@ -111,9 +111,10 @@ describe('dashboard render functions', () => {
     // open items render as plain <li>; the [ ] marker is CSS ::before content
     expect(html).toContain('<li>Working prototype, hosted</li>');
     expect(html).toContain('<li>3-minute demo video</li>');
-    // done items appear on the board rail as plain chips (no .open danger ring)
-    expect(html).toMatch(/<span class="chip">repo<\/span>/);
-    expect(html).toMatch(/<span class="chip open">demo<\/span>/);
+    // done items render as settled chips; unfinished ones are tappable buttons
+    expect(html).toMatch(/<span class="chip">repo ✓<\/span>/);
+    expect(html).toMatch(/<button class="chip chipbtn" data-tick data-h="[^"]*" data-d="demo"/);
+    expect(html).toMatch(/data-d="ALL"/); // per-event "mark everything" button
     // urgency class within warn window (T-60h)
     expect(html).toMatch(/class="card nextup u-warn"/);
     expect(html).toContain('Submit');

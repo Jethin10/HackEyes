@@ -147,3 +147,30 @@ describe('registry: failure isolation + tag synthesis', () => {
     expect(kept).toBeDefined();
   });
 });
+
+import { parseUnstopDetail } from '../src/adapters/unstop.js';
+
+describe('unstop detail API (deterministic registration intake)', () => {
+  it('parses the OOSC hackathon: rounds with offsets + quoted deliverables', async () => {
+    const raw = await readFile(FIX('unstop-detail-oosc.json'), 'utf8');
+    const d = parseUnstopDetail(
+      raw,
+      'https://unstop.com/hackathons/oosc-4o-hackathon-iiit-allahabad-1730805',
+    );
+    expect(d.name).toBe('OOSC 4.0 Hackathon');
+    expect(d.rounds.length).toBe(2);
+    expect(d.rounds[0]!.due_at).toBe('2026-08-23T23:59:00+05:30'); // explicit offset
+    const labels = d.rounds[0]!.deliverables.map((x) => x.label);
+    // deliverables come ONLY from bullet lists — prose is excluded
+    expect(labels.some((l) => l.startsWith('GitHub repo'))).toBe(true);
+    expect(labels.some((l) => l.includes('Demo video'))).toBe(true);
+    expect(labels.some((l) => l.startsWith('Evaluation will be'))).toBe(false);
+  });
+
+  it('gives list-less rounds one tickable submission item', async () => {
+    const raw = await readFile(FIX('unstop-detail-imperium.json'), 'utf8');
+    const d = parseUnstopDetail(raw, 'https://unstop.com/competitions/imperium-x-1708902');
+    expect(d.rounds[0]!.name).toContain('Online Quiz');
+    expect(d.rounds[0]!.deliverables[0]!.id).toBe('submission');
+  });
+});

@@ -104,14 +104,17 @@ function renderBoard(state, nowMs) {
           const total = r.deliverables.length;
           const cd = r.due_at ? countdown(r.due_at, nowMs) : null;
           const when = cd && cd.text !== 'closed' ? ` · ${cd.text}` : '';
+          const allBtn = open > 0
+            ? ` <button class="chipbtn" data-tick data-h="${esc(h.id)}" data-d="ALL" title="Mark everything in this event done">all ✓</button>`
+            : '';
+          const chips = r.deliverables
+            .map((d) => d.done
+              ? `<span class="chip">${esc(d.id)} ✓</span>`
+              : `<button class="chip chipbtn" data-tick data-h="${esc(h.id)}" data-d="${esc(d.id)}" title="Mark ${esc(d.label)} as done">${esc(d.id)}</button>`)
+            .join('');
           return `<li><span class="n">${r.n}</span><span class="rname">${esc(
             r.name,
-          )}${when}<span class="chips">${r.deliverables
-            .map(
-              (d) =>
-                `<span class="chip${d.done ? '' : ' open'}">${esc(d.id)}</span>`,
-            )
-            .join('')}</span></span></li>`;
+          )}${when}<span class="chips">${chips}${allBtn}</span></span></li>`;
         })
         .join('');
       const meta = [
@@ -128,6 +131,7 @@ function renderBoard(state, nowMs) {
         <div class="event"><a href="${esc(h.url)}">${esc(h.name)}</a></div>
         <div class="meta">${meta || esc(h.source)}</div>
         <ol class="rail" style="list-style:none">${rail}</ol>
+        <p class="hint">tap a chip to mark it submitted</p>
       </div>`;
     })
     .join('');
@@ -232,6 +236,46 @@ async function loadState() {
 
 if (typeof document !== 'undefined') {
   const app = document.getElementById('app');
+
+  // One-tap "I did it": dispatch the tick workflow via /api/tick.
+  app.addEventListener('click', async (ev) => {
+    const btn = ev.target.closest?.('[data-tick]');
+    if (!btn || btn.disabled) return;
+    let key = localStorage.getItem('sw_tick_key') || '';
+    if (!key) {
+      key = prompt('Enter your tick key (TICK_KEY secret) to enable one-tap marking:') || '';
+      if (!key) return;
+      localStorage.setItem('sw_tick_key', key);
+    }
+    btn.disabled = true;
+    const original = btn.textContent;
+    btn.textContent = 'queuing…';
+    try {
+      const r = await fetch('/api/tick', {
+        method: 'POST',
+        headers: { 'content-type': 'application/json', 'x-tick-key': key },
+        body: JSON.stringify({
+          hackathon_id: btn.dataset.h,
+          deliverable_id: btn.dataset.d,
+        }),
+      });
+      if (r.status === 401) {
+        localStorage.removeItem('sw_tick_key');
+        btn.disabled = false;
+        btn.textContent = original;
+        alert('Wrong tick key — try again.');
+        return;
+      }
+      if (!r.ok) throw new Error('failed ' + r.status);
+      btn.textContent = 'queued ✓';
+      setTimeout(() => location.reload(), 2500); // pick up new state when ready
+    } catch (err) {
+      btn.disabled = false;
+      btn.textContent = original;
+      alert('Could not queue the tick: ' + err.message);
+    }
+  });
+
   loadState()
     .then((state) => {
       if (!state) {
