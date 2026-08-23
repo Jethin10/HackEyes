@@ -94,7 +94,7 @@ function renderBoard(state, nowMs) {
     (h) => h.status === 'registered' || h.status === 'active',
   );
   if (active.length === 0) {
-    return '<section id="board"><p class="empty">No active hackathons yet.</p></section>';
+    return '<section id="board"><p class="empty">No active hackathons yet. Registered for one?\n      Actions → <strong>scan</strong> → paste its URL into <strong>add_url</strong> — it lands here with\n      every round deadline and deliverable extracted.</p></section>';
   }
   const cards = active
     .map((h) => {
