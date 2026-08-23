@@ -50,16 +50,33 @@ export function regionMatches(
   });
 }
 
+/**
+ * Interest matching over real-world tag strings. Sources format tags
+ * differently ("AI", "Machine Learning/AI", "AI/ML"), so each tag is split
+ * into alnum tokens and an interest matches on exact tag OR any token.
+ */
+function tagTokens(tag: string): string[] {
+  return tag.trim().toLowerCase().split(/[^a-z0-9]+/).filter(Boolean);
+}
+
+function anyTagMatches(tags: string[], wanted: Set<string>): boolean {
+  return tags.some((tag) => {
+    const t = tag.trim().toLowerCase();
+    if (wanted.has(t)) return true;
+    return tagTokens(t).some((tok) => wanted.has(tok));
+  });
+}
+
 export function score(
   c: Candidate,
   cfg: Config,
   now: Date = new Date(),
 ): number {
-  const tags = c.tags.map((t) => t.trim().toLowerCase());
+  const tags = c.tags.map((t) => t.trim());
   const exclude = new Set(cfg.exclude.map((t) => t.trim().toLowerCase()));
 
   // --- hard filters -------------------------------------------------------
-  if (tags.some((t) => exclude.has(t))) return 0;
+  if (anyTagMatches(tags, exclude)) return 0;
   if (!cfg.platforms.includes(c.source)) return 0;
 
   if (
@@ -83,8 +100,10 @@ export function score(
   // --- soft score ---------------------------------------------------------
   const interests = new Set(cfg.interests.map((t) => t.trim().toLowerCase()));
   let overlap = 0;
-  for (const t of new Set(tags)) {
-    if (interests.has(t)) overlap++;
+  for (const tag of new Set(tags)) {
+    // A tag counts once even if it matches several interests.
+    const tokens = new Set([tag.toLowerCase(), ...tagTokens(tag)]);
+    if ([...tokens].some((x) => interests.has(x))) overlap += 1;
   }
   const overlapRatio =
     interests.size === 0 ? 0 : Math.min(overlap / interests.size, 1);

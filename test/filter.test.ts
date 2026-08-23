@@ -103,6 +103,25 @@ describe('filter.score / passes', () => {
     expect(passes(c, CFG, NOW)).toBe(true);
   });
 
+  it('tokenizes real-world theme tags: "Machine Learning/AI" matches interest "ai"', () => {
+    // Devpost emits themes like ["Databases","Machine Learning/AI","Open Ended"]
+    const c = candidate({ tags: ['Machine Learning/AI'] });
+    const s = score(c, CFG, NOW);
+    expect(s).toBeGreaterThanOrEqual(0.5);
+    expect(passes(c, CFG, NOW)).toBe(true);
+  });
+
+  it('exclusion also matches on tokens ("Biotech/Deep-Tech" hits exclude "biotech")', () => {
+    const c = candidate({ tags: ['ai', 'agents', 'Biotech / Deep-Tech'] });
+    expect(score(c, CFG, NOW)).toBe(0);
+  });
+
+  it('substring traps do not match ("html" is not "ml")', () => {
+    const c = candidate({ tags: ['html'], mode: undefined });
+    const s = score(c, CFG, NOW);
+    expect(s).toBeLessThan(0.5);
+  });
+
   it('score is always within 0..1', () => {
     for (const tags of [[], ['zzz'], ['ai']]) {
       const s = score(candidate({ tags }), CFG, NOW);
