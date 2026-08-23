@@ -1,0 +1,33 @@
+{
+  "hackathons": [
+    {
+      "name": "Deccan AI Sprint",
+      "slug": "deccan-ai-sprint",
+      "mode_type": "online",
+      "location": "India",
+      "start_date": "2026-09-05T09:00:00Z",
+      "ends_at": "2026-09-07T18:00:00Z",
+      "tags": [{ "name": "AI/ML" }, { "name": "Open Innovation" }]
+    },
+    {
+      "name": "Hyderabad Blockchain Build",
+      "slug": "hyderabad-blockchain-build",
+      "url": "https://devfolio.co/hackathons/hyderabad-blockchain-build",
+      "mode_type": "offline",
+      "location": "Hyderabad, India",
+      "start_date": "2026-10-10T04:30:00Z",
+      "registration_deadline": "2026-10-01T18:00:00Z",
+      "tags": ["web3", "ethereum"]
+    },
+    {
+      "name": "Fintech Forge",
+      "slug": "fintech-forge",
+      "url": "https://fintechforge.devfolio.co/",
+      "mode_type": "hybrid",
+      "location": "Bengaluru + Online",
+      "start_date": null,
+      "ends_at": null,
+      "tags": []
+    }
+  ]
+}

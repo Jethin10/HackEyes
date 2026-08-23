@@ -1,0 +1,135 @@
+{
+  "hackathons": [
+    {
+      "id": 29969,
+      "title": "RevenueCat Shipaton 2026",
+      "displayed_location": {
+        "icon": "globe",
+        "location": "Online"
+      },
+      "open_state": "open",
+      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/663/632/datas/medium_square.jpg",
+      "analytics_identifier": "RevenueCat Shipaton 2026 (29969)",
+      "url": "https://revenuecat-shipaton-2026.devpost.com/",
+      "time_left_to_submission": "about 1 month left",
+      "submission_period_dates": "Jul 31 - Oct 01, 2026",
+      "themes": [
+        {
+          "id": 18,
+          "name": "Design"
+        },
+        {
+          "id": 4,
+          "name": "Gaming"
+        },
+        {
+          "id": 26,
+          "name": "Mobile"
+        }
+      ],
+      "prize_amount": "$<span data-currency-value>740,000</span>",
+      "prizes_counts": {
+        "cash": 1,
+        "other": 0
+      },
+      "registrations_count": 19748,
+      "featured": true,
+      "organization_name": "RevenueCat",
+      "winners_announced": false,
+      "submission_gallery_url": "https://revenuecat-shipaton-2026.devpost.com/project-gallery",
+      "start_a_submission_url": "https://revenuecat-shipaton-2026.devpost.com/challenges/start_a_submission",
+      "invite_only": false,
+      "eligibility_requirement_invite_only_description": null,
+      "managed_by_devpost_badge": false
+    },
+    {
+      "id": 30721,
+      "title": "Agentic Cinema: The Blockbuster Hackathon",
+      "displayed_location": {
+        "icon": "globe",
+        "location": "Online"
+      },
+      "open_state": "open",
+      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/901/608/datas/medium_square.jpg",
+      "analytics_identifier": "Agentic Cinema: The Blockbuster Hackathon (30721)",
+      "url": "https://agentic-cinema.devpost.com/",
+      "time_left_to_submission": "17 days left",
+      "submission_period_dates": "Jul 27 - Sep 09, 2026",
+      "themes": [
+        {
+          "id": 28,
+          "name": "Databases"
+        },
+        {
+          "id": 6,
+          "name": "Machine Learning/AI"
+        },
+        {
+          "id": 22,
+          "name": "Open Ended"
+        }
+      ],
+      "prize_amount": "$<span data-currency-value>75,000</span>",
+      "prizes_counts": {
+        "cash": 1,
+        "other": 0
+      },
+      "registrations_count": 7940,
+      "featured": true,
+      "organization_name": "Google",
+      "winners_announced": false,
+      "submission_gallery_url": "https://agentic-cinema.devpost.com/project-gallery",
+      "start_a_submission_url": "https://agentic-cinema.devpost.com/challenges/start_a_submission",
+      "invite_only": false,
+      "eligibility_requirement_invite_only_description": null,
+      "managed_by_devpost_badge": true
+    },
+    {
+      "id": 30845,
+      "title": "All Things Agentic Hackathon",
+      "displayed_location": {
+        "icon": "globe",
+        "location": "Online"
+      },
+      "open_state": "open",
+      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/067/604/datas/medium_square.png",
+      "analytics_identifier": "All Things Agentic Hackathon (30845)",
+      "url": "https://allthingsagentichackathon.devpost.com/",
+      "time_left_to_submission": "8 days left",
+      "submission_period_dates": "Aug 04 - 31, 2026",
+      "themes": [
+        {
+          "id": 21,
+          "name": "Enterprise"
+        },
+        {
+          "id": 6,
+          "name": "Machine Learning/AI"
+        },
+        {
+          "id": 11,
+          "name": "Productivity"
+        }
+      ],
+      "prize_amount": "$<span data-currency-value>180,000</span>",
+      "prizes_counts": {
+        "cash": 1,
+        "other": 0
+      },
+      "registrations_count": 7361,
+      "featured": true,
+      "organization_name": "Google",
+      "winners_announced": false,
+      "submission_gallery_url": "https://allthingsagentichackathon.devpost.com/project-gallery",
+      "start_a_submission_url": "https://allthingsagentichackathon.devpost.com/challenges/start_a_submission",
+      "invite_only": false,
+      "eligibility_requirement_invite_only_description": null,
+      "managed_by_devpost_badge": true
+    }
+  ],
+  "meta": {
+    "total_count": 13783,
+    "per_page": 9,
+    "fuzzy": false
+  }
+}

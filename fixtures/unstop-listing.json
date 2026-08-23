@@ -1,0 +1,25 @@
+{
+  "data": [
+    {
+      "id": 410201,
+      "title": "Nexus AI Challenge 2026",
+      "slug": "nexus-ai-challenge",
+      "start_date": "2026-09-10T00:00:00+05:30",
+      "end_date": "2026-09-20T23:59:00+05:30",
+      "location": "Pan India",
+      "mode": "online",
+      "tags": ["ai", "agents"]
+    },
+    {
+      "id": 409988,
+      "title": "Smart India Codefest",
+      "slug": null,
+      "url": "https://unstop.com/hackathons/smart-india-codefest-2026",
+      "start_date": "2026-10-02T00:00:00+05:30",
+      "end_date": "2026-10-12T23:59:00+05:30",
+      "location": "New Delhi",
+      "mode": "offline",
+      "tags": [{ "name": "Software" }, { "name": "IoT" }]
+    }
+  ]
+}
