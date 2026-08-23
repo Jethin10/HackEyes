@@ -262,6 +262,47 @@ describe('runPipeline end-to-end (offline, fixtures, faked clock)', () => {
     expect(summary.passedFilter).toBe(0);
     expect(summary.newRecords).toBe(0);
   });
+
+  it('link-drop registers a pasted URL and deep-parses it in the same run', async () => {
+    const h = await harness();
+    const summary = await h.run({
+      fetchAllImpl: async () => ({ candidates: [], failures: [] }),
+      addUrl: 'https://unstop.com/hackathons/some-new-hack',
+    });
+    const after = JSON.parse(await readFile(h.stateFile, 'utf8'));
+    const rec = after.hackathons.find(
+      (x: { id: string }) => x.id === 'manual-some-new-hack',
+    );
+    expect(rec).toBeDefined();
+    expect(rec.detected_by).toBe('manual');
+    expect(rec.status).toBe('registered');
+    // registered -> deep-parsed immediately
+    expect(summary.parsedPages).toBe(1);
+    expect(rec.rounds[0].deliverables.length).toBeGreaterThan(0);
+  });
+
+  it('link-drop ignores a URL that is already tracked', async () => {
+    const seeded = [
+      {
+        id: 'manual-known-event',
+        name: 'Known Event',
+        source: 'unstop',
+        url: 'https://unstop.com/hackathons/known-event',
+        detected_by: 'manual',
+        status: 'active',
+        tags: [],
+        rounds: [],
+        last_seen: NOW.toISOString(),
+      },
+    ];
+    const h = await harness(seeded);
+    await h.run({
+      fetchAllImpl: async () => ({ candidates: [], failures: [] }),
+      addUrl: 'https://unstop.com/hackathons/known-event/',
+    });
+    const after = JSON.parse(await readFile(h.stateFile, 'utf8'));
+    expect(after.hackathons).toHaveLength(1);
+  });
 });
 
 describe('tick command', () => {

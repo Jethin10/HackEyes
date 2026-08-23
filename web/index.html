@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Submission Window</title>
+  <meta name="description" content="What's due next, and what exactly you have to make for it." />
+  <style>
+    :root {
+      --bg: #f6f6f4;
+      --card: #ffffff;
+      --ink: #17181a;
+      --muted: #6b6f76;
+      --line: #e3e4e0;
+      --accent: #2f6fed;
+      --ok: #1d8a4e;
+      --warn: #c07716;
+      --danger: #cc3311;
+      --chip: #eceff3;
+      --shadow: 0 1px 2px rgba(20, 22, 26, 0.06), 0 4px 14px rgba(20, 22, 26, 0.05);
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #131417;
+        --card: #1c1e23;
+        --ink: #ecedef;
+        --muted: #9aa0a8;
+        --line: #2a2d33;
+        --accent: #7ba3f5;
+        --ok: #57c98a;
+        --warn: #e5a54b;
+        --danger: #f06a4d;
+        --chip: #24272e;
+        --shadow: none;
+      }
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--ink);
+      font: 15px/1.55 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+        "Helvetica Neue", Arial, sans-serif;
+      -webkit-font-smoothing: antialiased;
+    }
+    main { max-width: 880px; margin: 0 auto; padding: 16px 16px 64px; }
+    h1 {
+      font-size: 19px; font-weight: 700; letter-spacing: -0.01em;
+      display: flex; align-items: baseline; gap: 10px; flex-wrap: wrap;
+    }
+    h1 small { font-size: 12px; color: var(--muted); font-weight: 400; }
+    h2 {
+      font-size: 12px; text-transform: uppercase; letter-spacing: 0.08em;
+      color: var(--muted); margin: 34px 0 10px;
+    }
+    section[hidden] { display: none; }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      padding: 16px;
+      box-shadow: var(--shadow);
+    }
+    /* --- next up --- */
+    .nextup { border-left: 5px solid var(--accent); padding: 18px; }
+    .nextup.u-warn { border-left-color: var(--warn); }
+    .nextup.u-danger { border-left-color: var(--danger); }
+    .nextup .event { font-weight: 700; font-size: 17px; }
+    .nextup .round { color: var(--muted); margin-top: 2px; }
+    .nextup .due { margin-top: 8px; font-weight: 600; }
+    .nextup .due .in { color: var(--danger); }
+    .checklist { list-style: none; padding: 0; margin: 12px 0 0; }
+    .checklist li { padding: 3px 0; }
+    .checklist li::before { content: "[ ]  "; color: var(--danger); font-weight: 700; white-space: pre; }
+    .checklist li.done::before { content: "[x]  "; color: var(--ok); }
+    .checklist li.done { color: var(--muted); text-decoration: line-through; }
+    .submitlink {
+      display: inline-block; margin-top: 14px; font-weight: 600;
+      color: var(--accent); text-decoration: none; word-break: break-all;
+    }
+    .submitlink:hover { text-decoration: underline; }
+    .quiet-note { color: var(--muted); }
+    /* --- board --- */
+    .board { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 12px; }
+    .board .event { font-weight: 650; margin-bottom: 2px; }
+    .board .meta { color: var(--muted); font-size: 13px; }
+    .rail { list-style: none; margin: 12px 0 0; padding: 0; }
+    .rail li { display: flex; gap: 10px; padding: 7px 0; border-top: 1px solid var(--line); align-items: baseline; }
+    .rail .n {
+      flex: 0 0 auto; width: 22px; height: 22px; border-radius: 50%;
+      background: var(--chip); color: var(--muted);
+      display: inline-flex; align-items: center; justify-content: center;
+      font-size: 12px; font-weight: 700; align-self: center;
+    }
+    .rail .rname { min-width: 0; overflow-wrap: anywhere; }
+    .chips { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 6px; }
+    .chip {
+      font-size: 11.5px; background: var(--chip); border-radius: 999px;
+      padding: 2px 9px; color: var(--muted);
+    }
+    .chip.open { color: var(--danger); background: transparent; border: 1px solid var(--danger); }
+    .tagrow { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 10px; }
+    /* --- generic --- */
+    a { color: var(--accent); }
+    .empty { color: var(--muted); }
+    .stamp { color: var(--muted); }
+    footer { max-width: 880px; margin: 0 auto; padding: 0 16px 40px; color: var(--muted); font-size: 12.5px; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Submission Window <small id="updated"></small></h1>
+    <div id="app">
+      <noscript>This dashboard needs JavaScript to read state.json.</noscript>
+    </div>
+  </main>
+  <footer>
+    State lives in the repo. Tick deliverables via Actions → tick, add events via
+    scan → Add by link. Read-only apart from links, by design.
+  </footer>
+  <script type="module" src="./app.js"></script>
+</body>
+</html>

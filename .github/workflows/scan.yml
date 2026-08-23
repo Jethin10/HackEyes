@@ -5,6 +5,11 @@ on:
     - cron: "30 2 * * *" # 08:00 IST — morning digest
     - cron: "30 12 * * *" # 18:00 IST — evening urgency sweep
   workflow_dispatch: # manual "check now" button in the Actions tab
+    inputs:
+      add_url:
+        description: "Optional: hackathon URL to track (link-drop). Leaves blank for a normal scan."
+        required: false
+        type: string
 
 permissions:
   contents: write
@@ -23,7 +28,7 @@ jobs:
       - run: npm ci
 
       - name: Run the daily job
-        run: npm run scan
+        run: npm run scan -- ${{ github.event.inputs.add_url && format('--add-url {0}', github.event.inputs.add_url) || '' }}
         env:
           OPENCODE_API_KEY: ${{ secrets.OPENCODE_API_KEY }}
           NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}

@@ -43,6 +43,8 @@ export interface RunOptions {
   now?: Date;
   statePath?: string;
   configPath?: string;
+  /** Link-drop: register this URL before the run (Part I §9 Add by link). */
+  addUrl?: string;
   fetchAllImpl?: typeof fetchAll;
   extractImpl?: typeof extractRounds;
   sendImpl?: typeof send;
@@ -126,6 +128,33 @@ function applyCandidate(h: Hackathon, c: Candidate, now: Date): void {
   }
 }
 
+function recordFromUrl(url: string, now: Date): Hackathon {
+  let host = 'web';
+  let slug = 'event';
+  try {
+    const u = new URL(url);
+    host = u.host.replace(/^www\./, '');
+    const parts = u.pathname.split('/').filter(Boolean);
+    slug = parts[parts.length - 1] ?? slug;
+  } catch {
+    // caller validates; tolerate and use defaults
+  }
+  return {
+    id: `manual-${slugify(slug)}`,
+    name: slug
+      .replace(/[-_]+/g, ' ')
+      .replace(/\b\w/g, (m) => m.toUpperCase()),
+    source: host.split('.')[0] ?? 'web',
+    url,
+    detected_by: 'manual',
+    status: 'registered', // you say you're in it — deep-parse fills the rounds
+    tags: [],
+    rounds: [],
+    registered_at: now.toISOString().slice(0, 10),
+    last_seen: now.toISOString(),
+  };
+}
+
 // ---------------------------------------------------------------------------
 // Pipeline
 // ---------------------------------------------------------------------------
@@ -169,6 +198,19 @@ export async function runPipeline(opts: RunOptions = {}): Promise<RunSummary> {
   // -- 2. FILTER ------------------------------------------------------------
   log('[2/7] FILTER: scoring against your preferences...');
   const list = await load(statePath);
+
+  // Link-drop (Input C): register the pasted URL as a tracked event.
+  if (opts.addUrl) {
+    const key = canonicalUrl(opts.addUrl);
+    if (!list.some((h) => canonicalUrl(h.url) === key)) {
+      const rec = recordFromUrl(opts.addUrl, now);
+      list.push(rec);
+      log(`[2/7] FILTER: link-drop added -> ${rec.id}`);
+    } else {
+      log('[2/7] FILTER: link-drop URL already tracked');
+    }
+  }
+
   const newRecords: Hackathon[] = [];
   for (const c of candidates) {
     if (!passes(c, cfg, now)) continue; // fail -> drop silently
@@ -340,7 +382,16 @@ export async function main(argv: string[]): Promise<number> {
     return (await tickDeliverable(hackathonId, deliverableId)) ? 0 : 1;
   }
   const dryRun = argv.includes('--dry-run');
-  await runPipeline({ dryRun });
+  const addUrlIndex = argv.indexOf('--add-url');
+  const addUrl = addUrlIndex >= 0 ? (argv[addUrlIndex + 1] ?? '') : undefined;
+  if (addUrl !== undefined && !addUrl) {
+    console.error('usage: npm run scan -- --add-url <https://...>');
+    return 1;
+  }
+  await runPipeline({
+    dryRun,
+    ...(addUrl ? { addUrl } : {}),
+  });
   return 0;
 }
 
