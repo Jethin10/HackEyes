@@ -147,7 +147,7 @@
               "id": "submission",
               "label": "Online Quiz submission (see event page)",
               "kind": "other",
-              "done": false
+              "done": true
             }
           ]
         },
@@ -162,7 +162,7 @@
               "id": "submission",
               "label": "Offline Round(s) submission (see event page)",
               "kind": "other",
-              "done": false
+              "done": true
             }
           ]
         }
@@ -184,6 +184,7 @@
       "detected_by": "manual",
       "status": "registered",
       "tags": [],
+      "registered_at": "2026-08-23",
       "rounds": [
         {
           "n": 1,
@@ -228,15 +229,14 @@
           ]
         }
       ],
-      "registered_at": "2026-08-23",
-      "last_seen": "2026-08-23T21:40:45.048Z",
-      "source_hash": "sha256:e1bd6417d0ced49ee6064998fee76862f09230c20c10e1d9c5dfd49e4be699da",
       "extraction": {
         "model": "unstop-detail-api",
         "confidence": 1,
         "needs_review": false,
         "parsed_at": "2026-08-23T21:40:45.048Z"
       },
+      "source_hash": "sha256:e1bd6417d0ced49ee6064998fee76862f09230c20c10e1d9c5dfd49e4be699da",
+      "last_seen": "2026-08-23T21:40:45.048Z",
       "sent": [
         "r2:T-7d"
       ]
