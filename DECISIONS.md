@@ -113,9 +113,15 @@ One line each: what, why, and where it lives.
     root (Vercel rewrite), web/ dir, or opened via a static server. Total
     failure renders a help card, never a console error storm.
 
-24. **Vercel serving.** Repo root deployed statically (framework Other);
-    `vercel.json` cleanUrls + rewrite `/` → `/web/index.html` keeps
-    `/state.json` fetchable at `../state.json` from the page. No build step.
+24. **Vercel serving.** Deployed via Vercel CLI (project `hackeyes`, git-connected
+    to Jethin10/HackEyes so every scan commit auto-redeploys the dashboard).
+    vercel.json uses `outputDirectory: "."` (framework-less static) plus
+    rewrites `/` → `/web/index.html` and `/app.js` → `/web/app.js` so the page
+    works at both entry points while `/state.json` stays fetchable. Two gotchas
+    hit live: Vercel Authentication (SSO protection) defaults ON for new
+    projects — disabled via API so the tracker is publicly readable; and
+    `cleanUrls: true` compiles broken backslash overrides for `.html` files on
+    Windows, so it was dropped. Live at https://hackeyes.vercel.app
 
 25. **`.gitattributes` forces LF** — `state.json` diffs are the audit log;
     CRLF churn on Windows would make them unreadable.
