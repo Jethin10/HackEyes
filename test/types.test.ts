@@ -54,7 +54,7 @@ describe('parseState', () => {
 describe('zHackathon / zConfig round-trip', () => {
   it('keeps unknown fields out of the parsed record', () => {
     const withJunk = { ...validHackathon, secret_field: 'oops' };
-    const parsed = zHackathon.parse(withJunk) as Record<string, unknown>;
+    const parsed = zHackathon.parse(withJunk) as unknown as Record<string, unknown>;
     expect(parsed['secret_field']).toBeUndefined();
   });
 

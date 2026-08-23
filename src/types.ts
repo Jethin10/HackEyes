@@ -121,8 +121,9 @@ export const zDeliverable: z.ZodType<Deliverable> = z.object({
 export const zRound: z.ZodType<Round> = z.object({
   n: z.number().int().positive(),
   name: z.string().min(1),
-  opens_at: z.string().nullable(),
-  due_at: z.string().nullable(),
+  // A timestamp without an explicit offset must NEVER enter state.json.
+  opens_at: z.union([isoWithOffset, z.null()]),
+  due_at: z.union([isoWithOffset, z.null()]),
   submit_url: z.string().optional(),
   result: z.union([z.null(), z.literal('advanced'), z.literal('eliminated')]),
   deliverables: z.array(zDeliverable),
