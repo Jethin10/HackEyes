@@ -129,3 +129,23 @@ One line each: what, why, and where it lives.
 26. **engines.node >=22** while local verification ran on Node 25 — the CI
     workflow pins Node 22 LTS as specified; no version-specific APIs used
     beyond standard `fetch`/`AbortController`.
+
+27. **Unstop registrations are parsed deterministically.** Discovery of
+    `GET unstop.com/api/public/competition/{id}` made LLM extraction
+    unnecessary for Unstop events: rounds/dates/deliverables come straight from
+    public JSON (offsets included), deliverables only from bullet lists inside
+    `display_text` (prose/criteria excluded). Link-drop detects Unstop IDs,
+    seeds a registered record instantly, and DEEP-PARSE refreshes via the same
+    API on every scan — hash-gated, zero model calls, zero API key needed.
+    List-less rounds get one generic tickable `submission` deliverable so
+    nothing is untickable.
+
+28. **One-tap done = dashboard button → /api/tick (Vercel function) → GitHub
+    workflow_dispatch of tick.yml → commit → auto-redeploy.** Chosen over a
+    browser-held GitHub token (never safe) and over direct state.json writes
+    from the function (workflow path reuses tested code + audit log). Auth is a
+    shared TICK_KEY secret checked server-side; the browser stores it in
+    localStorage after one prompt. The function's GH_TOKEN reuses the gh CLI's
+    existing OAuth token (needs `repo`+`workflow` scopes) rather than asking
+    for a fresh PAT; rotation instructions live in README. `deliverable_id:
+    ALL` marks every open item in the event at once ("I submitted everything").
