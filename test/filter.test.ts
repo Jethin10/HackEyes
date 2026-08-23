@@ -78,11 +78,12 @@ describe('filter.score / passes', () => {
     expect(score(c, CFG, NOW)).toBe(0);
   });
 
-  it('unknown mode gets half credit but full overlap can still pass', () => {
+  it('unknown mode gets half credit; boundary score of exactly 0.5 passes', () => {
     const c = candidate({ mode: undefined });
+    // overlap (2/6 × 0.6) + region "Remote" 0.2 + half mode credit 0.1 = 0.5
     const s = score(c, CFG, NOW);
-    expect(s).toBeGreaterThan(0.5);
-    expect(passes(c, CFG, NOW)).toBe(true);
+    expect(s).toBeCloseTo(0.5, 10);
+    expect(passes(c, CFG, NOW)).toBe(true); // contract: score >= 0.5
   });
 
   it('perfect candidate scores exactly 1', () => {
@@ -93,14 +94,13 @@ describe('filter.score / passes', () => {
     expect(score(c, CFG, NOW)).toBeCloseTo(1, 10);
   });
 
-  it('indian city without the word "India" misses region credit: exact score', () => {
-    // MLH-style "Hyderabad, Telangana" — region component misses (no
-    // \bindia\b token), so score = (1/6 overlap × 0.6) + 0 + mode 0.2 = 0.3.
-    // Adapters synthesize tags from titles (T6) so real Indian events still
-    // clear the bar via richer tag overlap.
+  it('online events earn remote-region credit regardless of host city', () => {
+    // MLH-style "Hyderabad, Telangana" has no \bindia\b token, but the event
+    // is online — enterable from anywhere — so the "remote" region matches.
+    // (1/6 overlap × 0.6) + remote 0.2 + mode 0.2 = 0.5.
     const c = candidate({ tags: ['ai'], location: 'Hyderabad, Telangana' });
-    expect(score(c, CFG, NOW)).toBeCloseTo(0.3, 10);
-    expect(passes(c, CFG, NOW)).toBe(false);
+    expect(score(c, CFG, NOW)).toBeCloseTo(0.5, 10);
+    expect(passes(c, CFG, NOW)).toBe(true);
   });
 
   it('score is always within 0..1', () => {
