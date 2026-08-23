@@ -1,0 +1,39 @@
+name: tick
+
+on:
+  workflow_dispatch: # Run from the Actions tab: "Run workflow" with inputs
+    inputs:
+      hackathon_id:
+        description: "Hackathon id from state.json (e.g. unstop-hackx-2026)"
+        required: true
+        type: string
+      deliverable_id:
+        description: "Deliverable id to mark done (e.g. video, deck, repo)"
+        required: true
+        type: string
+
+permissions:
+  contents: write
+
+jobs:
+  tick:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+
+      - name: Mark the deliverable done
+        run: npm run tick -- "${{ github.event.inputs.hackathon_id }}" "${{ github.event.inputs.deliverable_id }}"
+
+      - name: Commit state.json if it changed
+        run: |
+          git config user.name "submission-window"
+          git config user.email "actions@users.noreply.github.com"
+          git add state.json
+          git diff --cached --quiet || (git commit -m "tick: ${{ github.event.inputs.hackathon_id }} / ${{ github.event.inputs.deliverable_id }} [skip ci]" && git push)
