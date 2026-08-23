@@ -54,5 +54,7 @@ export function formatDeadlineIst(iso: string): string {
   }).formatToParts(t);
   const get = (type: string): string =>
     parts.find((p) => p.type === type)?.value ?? '';
-  return `${get('weekday')} ${get('day')} ${get('month')}, ${get('hour')}:${get('minute')} IST`;
+  // Some ICU builds render September as "Sept"; keep it three chars.
+  const month = get('month').replace(/^Sept$/, 'Sep');
+  return `${get('weekday')} ${get('day')} ${month}, ${get('hour')}:${get('minute')} IST`;
 }
