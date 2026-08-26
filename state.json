@@ -16,7 +16,7 @@
       ],
       "prize_inr": 6750000,
       "rounds": [],
-      "last_seen": "2026-08-26T03:32:52.024Z"
+      "last_seen": "2026-08-26T13:31:38.716Z"
     },
     {
       "id": "devpost-all-things-agentic-hackathon",
@@ -34,7 +34,7 @@
       ],
       "prize_inr": 16200000,
       "rounds": [],
-      "last_seen": "2026-08-26T03:32:52.024Z"
+      "last_seen": "2026-08-26T13:31:38.716Z"
     },
     {
       "id": "devpost-agents-for-humans-hackathon",
@@ -52,7 +52,7 @@
       ],
       "prize_inr": 3600000,
       "rounds": [],
-      "last_seen": "2026-08-26T03:32:52.024Z"
+      "last_seen": "2026-08-26T13:31:38.716Z"
     },
     {
       "id": "devpost-call-e-your-code-is-calling",
@@ -70,7 +70,7 @@
       ],
       "prize_inr": 900000,
       "rounds": [],
-      "last_seen": "2026-08-26T03:32:52.024Z"
+      "last_seen": "2026-08-26T13:31:38.716Z"
     },
     {
       "id": "devpost-reverie-hacks-2026",
@@ -106,7 +106,7 @@
       ],
       "prize_inr": 3051000,
       "rounds": [],
-      "last_seen": "2026-08-26T03:32:52.024Z"
+      "last_seen": "2026-08-26T13:31:38.716Z"
     },
     {
       "id": "devpost-volthacks",
@@ -124,7 +124,7 @@
       ],
       "prize_inr": 3220650,
       "rounds": [],
-      "last_seen": "2026-08-26T03:32:52.024Z"
+      "last_seen": "2026-08-26T13:31:38.716Z"
     },
     {
       "id": "unstop-1708902",
@@ -171,9 +171,9 @@
         "model": "unstop-detail-api",
         "confidence": 1,
         "needs_review": false,
-        "parsed_at": "2026-08-26T03:32:52.024Z"
+        "parsed_at": "2026-08-26T13:31:38.716Z"
       },
-      "source_hash": "sha256:0899fa53a59730ed9c4809f0aba8ea3062eda2a31337ec3d9f1e3170e80cb377",
+      "source_hash": "sha256:306c995837af8d2a7da9418f2a91f7b881d8ef492e7cf7f05ebe60d77fb9de98",
       "last_seen": "2026-08-23T21:40:37.502Z"
     },
     {
@@ -233,9 +233,9 @@
         "model": "unstop-detail-api",
         "confidence": 1,
         "needs_review": false,
-        "parsed_at": "2026-08-26T03:32:52.024Z"
+        "parsed_at": "2026-08-26T13:31:38.716Z"
       },
-      "source_hash": "sha256:204d1c1c63164effb478ac199c8165a1db70c808b01ccbb2ca1a8f1f8b499fac",
+      "source_hash": "sha256:7a551b62d4e53524e57ed0b981cf5f29d65cdffbdca24f6d82edf9d98737e1a7",
       "last_seen": "2026-08-23T21:40:45.048Z",
       "sent": [
         "r2:T-7d"
@@ -248,16 +248,16 @@
       "url": "https://webmcp.devpost.com/",
       "detected_by": "discovery",
       "status": "candidate",
+      "mode": "online",
+      "location": "Online",
       "tags": [
         "machine learning/ai",
         "e-commerce/retail",
         "web"
       ],
-      "mode": "online",
-      "location": "Online",
       "prize_inr": 3150000,
       "rounds": [],
-      "last_seen": "2026-08-26T03:32:52.024Z"
+      "last_seen": "2026-08-26T13:31:38.716Z"
     }
   ]
 }
