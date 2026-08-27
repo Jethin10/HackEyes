@@ -16,7 +16,7 @@
       ],
       "prize_inr": 6750000,
       "rounds": [],
-      "last_seen": "2026-08-26T13:31:38.716Z"
+      "last_seen": "2026-08-27T12:59:02.749Z"
     },
     {
       "id": "devpost-all-things-agentic-hackathon",
@@ -34,7 +34,7 @@
       ],
       "prize_inr": 16200000,
       "rounds": [],
-      "last_seen": "2026-08-26T13:31:38.716Z"
+      "last_seen": "2026-08-27T12:59:02.749Z"
     },
     {
       "id": "devpost-agents-for-humans-hackathon",
@@ -52,7 +52,7 @@
       ],
       "prize_inr": 3600000,
       "rounds": [],
-      "last_seen": "2026-08-26T13:31:38.716Z"
+      "last_seen": "2026-08-27T12:59:02.749Z"
     },
     {
       "id": "devpost-call-e-your-code-is-calling",
@@ -70,7 +70,7 @@
       ],
       "prize_inr": 900000,
       "rounds": [],
-      "last_seen": "2026-08-26T13:31:38.716Z"
+      "last_seen": "2026-08-27T12:59:02.749Z"
     },
     {
       "id": "devpost-reverie-hacks-2026",
@@ -106,7 +106,7 @@
       ],
       "prize_inr": 3051000,
       "rounds": [],
-      "last_seen": "2026-08-26T13:31:38.716Z"
+      "last_seen": "2026-08-27T12:59:02.749Z"
     },
     {
       "id": "devpost-volthacks",
@@ -124,7 +124,7 @@
       ],
       "prize_inr": 3220650,
       "rounds": [],
-      "last_seen": "2026-08-26T13:31:38.716Z"
+      "last_seen": "2026-08-27T12:59:02.749Z"
     },
     {
       "id": "unstop-1708902",
@@ -171,9 +171,9 @@
         "model": "unstop-detail-api",
         "confidence": 1,
         "needs_review": false,
-        "parsed_at": "2026-08-26T13:31:38.716Z"
+        "parsed_at": "2026-08-27T12:59:02.749Z"
       },
-      "source_hash": "sha256:306c995837af8d2a7da9418f2a91f7b881d8ef492e7cf7f05ebe60d77fb9de98",
+      "source_hash": "sha256:d6af9134c54d8f28a8f3815a9162e9d2049c2ddc82738821619fd0a1da712623",
       "last_seen": "2026-08-23T21:40:37.502Z"
     },
     {
@@ -233,9 +233,9 @@
         "model": "unstop-detail-api",
         "confidence": 1,
         "needs_review": false,
-        "parsed_at": "2026-08-26T13:31:38.716Z"
+        "parsed_at": "2026-08-27T12:59:02.749Z"
       },
-      "source_hash": "sha256:7a551b62d4e53524e57ed0b981cf5f29d65cdffbdca24f6d82edf9d98737e1a7",
+      "source_hash": "sha256:5cdd7997ac56563873fbd4eba5339a4858808f2b0bbc1a77f86a562745a5a197",
       "last_seen": "2026-08-23T21:40:45.048Z",
       "sent": [
         "r2:T-7d"
@@ -257,7 +257,7 @@
       ],
       "prize_inr": 3150000,
       "rounds": [],
-      "last_seen": "2026-08-26T13:31:38.716Z"
+      "last_seen": "2026-08-27T12:59:02.749Z"
     }
   ]
 }
