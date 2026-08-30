@@ -16,7 +16,7 @@
       ],
       "prize_inr": 6750000,
       "rounds": [],
-      "last_seen": "2026-08-29T16:48:52.064Z"
+      "last_seen": "2026-08-30T08:28:19.132Z"
     },
     {
       "id": "devpost-all-things-agentic-hackathon",
@@ -34,7 +34,7 @@
       ],
       "prize_inr": 16200000,
       "rounds": [],
-      "last_seen": "2026-08-29T16:48:52.064Z"
+      "last_seen": "2026-08-30T08:28:19.132Z"
     },
     {
       "id": "devpost-agents-for-humans-hackathon",
@@ -52,7 +52,7 @@
       ],
       "prize_inr": 3600000,
       "rounds": [],
-      "last_seen": "2026-08-29T16:48:52.064Z"
+      "last_seen": "2026-08-30T08:28:19.132Z"
     },
     {
       "id": "devpost-call-e-your-code-is-calling",
@@ -70,7 +70,7 @@
       ],
       "prize_inr": 900000,
       "rounds": [],
-      "last_seen": "2026-08-29T16:48:52.064Z"
+      "last_seen": "2026-08-30T08:28:19.132Z"
     },
     {
       "id": "devpost-reverie-hacks-2026",
@@ -106,7 +106,7 @@
       ],
       "prize_inr": 3051000,
       "rounds": [],
-      "last_seen": "2026-08-29T16:48:52.064Z"
+      "last_seen": "2026-08-30T08:28:19.132Z"
     },
     {
       "id": "devpost-volthacks",
@@ -124,7 +124,7 @@
       ],
       "prize_inr": 3220650,
       "rounds": [],
-      "last_seen": "2026-08-29T16:48:52.064Z"
+      "last_seen": "2026-08-30T08:28:19.132Z"
     },
     {
       "id": "unstop-1708902",
@@ -171,9 +171,9 @@
         "model": "unstop-detail-api",
         "confidence": 1,
         "needs_review": false,
-        "parsed_at": "2026-08-29T16:48:52.064Z"
+        "parsed_at": "2026-08-30T08:28:19.132Z"
       },
-      "source_hash": "sha256:6c012ba348b927cee3833fbfaacb5290b4aed9049fe49972821ca5ab0893c316",
+      "source_hash": "sha256:1b1d155ba867aff165c340c09c5f3f3131aa7a5b23b5674f7e3d76145bb22b92",
       "last_seen": "2026-08-23T21:40:37.502Z"
     },
     {
@@ -233,13 +233,14 @@
         "model": "unstop-detail-api",
         "confidence": 1,
         "needs_review": false,
-        "parsed_at": "2026-08-29T16:48:52.064Z"
+        "parsed_at": "2026-08-30T08:28:19.132Z"
       },
-      "source_hash": "sha256:fa50fafc0102ba4495245a5e3338f135cf433f33caedcb54e1416dcf35e1f942",
+      "source_hash": "sha256:581c5d137f492178cda9da7f2d507a08e60e2b023d42560852a31f8a4f50f9c4",
       "last_seen": "2026-08-23T21:40:45.048Z",
       "sent": [
         "r2:T-7d",
-        "r2:T-72h"
+        "r2:T-72h",
+        "r2:T-24h"
       ]
     },
     {
