@@ -16,7 +16,7 @@
       ],
       "prize_inr": 6750000,
       "rounds": [],
-      "last_seen": "2026-08-31T08:49:13.315Z"
+      "last_seen": "2026-08-31T19:10:28.361Z"
     },
     {
       "id": "devpost-all-things-agentic-hackathon",
@@ -34,7 +34,7 @@
       ],
       "prize_inr": 16200000,
       "rounds": [],
-      "last_seen": "2026-08-31T08:49:13.315Z"
+      "last_seen": "2026-08-31T19:10:28.361Z"
     },
     {
       "id": "devpost-agents-for-humans-hackathon",
@@ -52,7 +52,7 @@
       ],
       "prize_inr": 3600000,
       "rounds": [],
-      "last_seen": "2026-08-31T08:49:13.315Z"
+      "last_seen": "2026-08-31T19:10:28.361Z"
     },
     {
       "id": "devpost-call-e-your-code-is-calling",
@@ -70,7 +70,7 @@
       ],
       "prize_inr": 900000,
       "rounds": [],
-      "last_seen": "2026-08-31T08:49:13.315Z"
+      "last_seen": "2026-08-31T19:10:28.361Z"
     },
     {
       "id": "devpost-reverie-hacks-2026",
@@ -106,7 +106,7 @@
       ],
       "prize_inr": 3051000,
       "rounds": [],
-      "last_seen": "2026-08-31T08:49:13.315Z"
+      "last_seen": "2026-08-31T19:10:28.361Z"
     },
     {
       "id": "devpost-volthacks",
@@ -171,9 +171,9 @@
         "model": "unstop-detail-api",
         "confidence": 1,
         "needs_review": false,
-        "parsed_at": "2026-08-31T08:49:13.315Z"
+        "parsed_at": "2026-08-31T19:10:28.361Z"
       },
-      "source_hash": "sha256:dab939067d867d5d1e6be1b310cc4e52b256d6165c06acdf20afbb37a96b94a2",
+      "source_hash": "sha256:ff53e1bb243cbce66bb0bb1a7683367dcdeebfb103a786cac7fddd73125f16d7",
       "last_seen": "2026-08-23T21:40:37.502Z"
     },
     {
@@ -233,9 +233,9 @@
         "model": "unstop-detail-api",
         "confidence": 1,
         "needs_review": false,
-        "parsed_at": "2026-08-31T08:49:13.315Z"
+        "parsed_at": "2026-08-31T19:10:28.361Z"
       },
-      "source_hash": "sha256:0b408c8c145a64176cbf4b2775c45ca7480718d778518d2238a927b303bb80f3",
+      "source_hash": "sha256:8d7b859d9a2acef37749d5fa835d582ceda02cf9e7f53c38650616cccb3f1c0e",
       "last_seen": "2026-08-23T21:40:45.048Z",
       "sent": [
         "r2:T-7d",
@@ -262,6 +262,24 @@
       "prize_inr": 3150000,
       "rounds": [],
       "last_seen": "2026-08-28T22:29:52.392Z"
+    },
+    {
+      "id": "devpost-nebius-x-nvidia-global-ai-hackathon",
+      "name": "Nebius x NVIDIA Global AI Hackathon",
+      "source": "devpost",
+      "url": "https://nebiusglobalaihackathon.devpost.com/",
+      "detected_by": "discovery",
+      "status": "candidate",
+      "tags": [
+        "machine learning/ai",
+        "beginner friendly",
+        "robotic process automation"
+      ],
+      "mode": "online",
+      "location": "Online",
+      "prize_inr": 4500000,
+      "rounds": [],
+      "last_seen": "2026-08-31T19:10:28.361Z"
     }
   ]
 }
