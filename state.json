@@ -16,7 +16,7 @@
       ],
       "prize_inr": 6750000,
       "rounds": [],
-      "last_seen": "2026-08-30T16:51:58.156Z"
+      "last_seen": "2026-08-31T08:49:13.315Z"
     },
     {
       "id": "devpost-all-things-agentic-hackathon",
@@ -34,7 +34,7 @@
       ],
       "prize_inr": 16200000,
       "rounds": [],
-      "last_seen": "2026-08-30T16:51:58.156Z"
+      "last_seen": "2026-08-31T08:49:13.315Z"
     },
     {
       "id": "devpost-agents-for-humans-hackathon",
@@ -52,7 +52,7 @@
       ],
       "prize_inr": 3600000,
       "rounds": [],
-      "last_seen": "2026-08-30T16:51:58.156Z"
+      "last_seen": "2026-08-31T08:49:13.315Z"
     },
     {
       "id": "devpost-call-e-your-code-is-calling",
@@ -70,7 +70,7 @@
       ],
       "prize_inr": 900000,
       "rounds": [],
-      "last_seen": "2026-08-30T16:51:58.156Z"
+      "last_seen": "2026-08-31T08:49:13.315Z"
     },
     {
       "id": "devpost-reverie-hacks-2026",
@@ -106,7 +106,7 @@
       ],
       "prize_inr": 3051000,
       "rounds": [],
-      "last_seen": "2026-08-30T16:51:58.156Z"
+      "last_seen": "2026-08-31T08:49:13.315Z"
     },
     {
       "id": "devpost-volthacks",
@@ -171,9 +171,9 @@
         "model": "unstop-detail-api",
         "confidence": 1,
         "needs_review": false,
-        "parsed_at": "2026-08-30T16:51:58.156Z"
+        "parsed_at": "2026-08-31T08:49:13.315Z"
       },
-      "source_hash": "sha256:4fb69b4d99800e2a2c82a306484fc60e540927fd57136b2f7f64849085f79045",
+      "source_hash": "sha256:dab939067d867d5d1e6be1b310cc4e52b256d6165c06acdf20afbb37a96b94a2",
       "last_seen": "2026-08-23T21:40:37.502Z"
     },
     {
@@ -233,9 +233,9 @@
         "model": "unstop-detail-api",
         "confidence": 1,
         "needs_review": false,
-        "parsed_at": "2026-08-30T16:51:58.156Z"
+        "parsed_at": "2026-08-31T08:49:13.315Z"
       },
-      "source_hash": "sha256:c70531b08bdc754de83d6ac310edb27b57989f2723b665b2cc6e4225fe60166a",
+      "source_hash": "sha256:0b408c8c145a64176cbf4b2775c45ca7480718d778518d2238a927b303bb80f3",
       "last_seen": "2026-08-23T21:40:45.048Z",
       "sent": [
         "r2:T-7d",
