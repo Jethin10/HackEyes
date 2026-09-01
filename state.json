@@ -16,7 +16,7 @@
       ],
       "prize_inr": 6750000,
       "rounds": [],
-      "last_seen": "2026-08-31T19:10:28.361Z"
+      "last_seen": "2026-09-01T07:56:05.058Z"
     },
     {
       "id": "devpost-all-things-agentic-hackathon",
@@ -52,7 +52,7 @@
       ],
       "prize_inr": 3600000,
       "rounds": [],
-      "last_seen": "2026-08-31T19:10:28.361Z"
+      "last_seen": "2026-09-01T07:56:05.058Z"
     },
     {
       "id": "devpost-call-e-your-code-is-calling",
@@ -70,7 +70,7 @@
       ],
       "prize_inr": 900000,
       "rounds": [],
-      "last_seen": "2026-08-31T19:10:28.361Z"
+      "last_seen": "2026-09-01T07:56:05.058Z"
     },
     {
       "id": "devpost-reverie-hacks-2026",
@@ -106,7 +106,7 @@
       ],
       "prize_inr": 3051000,
       "rounds": [],
-      "last_seen": "2026-08-31T19:10:28.361Z"
+      "last_seen": "2026-09-01T07:56:05.058Z"
     },
     {
       "id": "devpost-volthacks",
@@ -171,9 +171,9 @@
         "model": "unstop-detail-api",
         "confidence": 1,
         "needs_review": false,
-        "parsed_at": "2026-08-31T19:10:28.361Z"
+        "parsed_at": "2026-09-01T07:56:05.058Z"
       },
-      "source_hash": "sha256:ff53e1bb243cbce66bb0bb1a7683367dcdeebfb103a786cac7fddd73125f16d7",
+      "source_hash": "sha256:af0f5b4f64c87258adb9040a934c8566e299fbe07ef1d6564f00fc25bfe9d314",
       "last_seen": "2026-08-23T21:40:37.502Z"
     },
     {
@@ -233,9 +233,9 @@
         "model": "unstop-detail-api",
         "confidence": 1,
         "needs_review": false,
-        "parsed_at": "2026-08-31T19:10:28.361Z"
+        "parsed_at": "2026-09-01T07:56:05.058Z"
       },
-      "source_hash": "sha256:8d7b859d9a2acef37749d5fa835d582ceda02cf9e7f53c38650616cccb3f1c0e",
+      "source_hash": "sha256:87555024aafbcd951ff6a321478eaface2a1ae59bf83073d304f1c9cc91e8e9e",
       "last_seen": "2026-08-23T21:40:45.048Z",
       "sent": [
         "r2:T-7d",
@@ -270,16 +270,16 @@
       "url": "https://nebiusglobalaihackathon.devpost.com/",
       "detected_by": "discovery",
       "status": "candidate",
+      "mode": "online",
+      "location": "Online",
       "tags": [
         "machine learning/ai",
         "beginner friendly",
         "robotic process automation"
       ],
-      "mode": "online",
-      "location": "Online",
       "prize_inr": 4500000,
       "rounds": [],
-      "last_seen": "2026-08-31T19:10:28.361Z"
+      "last_seen": "2026-09-01T07:56:05.058Z"
     }
   ]
 }
