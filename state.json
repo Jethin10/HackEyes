@@ -16,7 +16,7 @@
       ],
       "prize_inr": 6750000,
       "rounds": [],
-      "last_seen": "2026-09-02T16:43:17.976Z"
+      "last_seen": "2026-09-03T07:19:02.277Z"
     },
     {
       "id": "devpost-all-things-agentic-hackathon",
@@ -52,7 +52,7 @@
       ],
       "prize_inr": 3600000,
       "rounds": [],
-      "last_seen": "2026-09-02T16:43:17.976Z"
+      "last_seen": "2026-09-03T07:19:02.277Z"
     },
     {
       "id": "devpost-call-e-your-code-is-calling",
@@ -70,7 +70,7 @@
       ],
       "prize_inr": 900000,
       "rounds": [],
-      "last_seen": "2026-09-02T16:43:17.976Z"
+      "last_seen": "2026-09-03T07:19:02.277Z"
     },
     {
       "id": "devpost-reverie-hacks-2026",
@@ -106,7 +106,7 @@
       ],
       "prize_inr": 3051000,
       "rounds": [],
-      "last_seen": "2026-09-02T16:43:17.976Z"
+      "last_seen": "2026-09-03T07:19:02.277Z"
     },
     {
       "id": "devpost-volthacks",
@@ -171,9 +171,9 @@
         "model": "unstop-detail-api",
         "confidence": 1,
         "needs_review": false,
-        "parsed_at": "2026-09-02T16:43:17.976Z"
+        "parsed_at": "2026-09-03T07:19:02.277Z"
       },
-      "source_hash": "sha256:c775394bf2732538c7790f9a150f4a9ef242aa3c4beb228ef9a6855a4d70221d",
+      "source_hash": "sha256:8718737856fb22b86c4789197e0e1fcfe355600e9e9c458aa0df9a9895dbb8e3",
       "last_seen": "2026-08-23T21:40:37.502Z"
     },
     {
@@ -233,9 +233,9 @@
         "model": "unstop-detail-api",
         "confidence": 1,
         "needs_review": false,
-        "parsed_at": "2026-09-02T16:43:17.976Z"
+        "parsed_at": "2026-09-03T07:19:02.277Z"
       },
-      "source_hash": "sha256:119fdd011310bfe1f0270c342a08caaedb0eefd49afbbafd3fe9b842977a7b4e",
+      "source_hash": "sha256:f414ad05c9ef5dd6cb4e5045c48b7015e0290d9b8776c0f39f2104c1c4591f98",
       "last_seen": "2026-08-23T21:40:45.048Z",
       "sent": [
         "r2:T-7d",
@@ -279,7 +279,25 @@
       ],
       "prize_inr": 4500000,
       "rounds": [],
-      "last_seen": "2026-09-02T16:43:17.976Z"
+      "last_seen": "2026-09-03T07:19:02.277Z"
+    },
+    {
+      "id": "devpost-build-ship-shape-amazon-developer-hackathon",
+      "name": "Build, Ship, Shape: Amazon Developer Hackathon",
+      "source": "devpost",
+      "url": "https://amazonappdev2026.devpost.com/",
+      "detected_by": "discovery",
+      "status": "candidate",
+      "tags": [
+        "machine learning/ai",
+        "open ended",
+        "productivity"
+      ],
+      "mode": "online",
+      "location": "Online",
+      "prize_inr": 12420000,
+      "rounds": [],
+      "last_seen": "2026-09-03T07:19:02.277Z"
     }
   ]
 }
