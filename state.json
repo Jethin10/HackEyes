@@ -52,7 +52,7 @@
       ],
       "prize_inr": 3600000,
       "rounds": [],
-      "last_seen": "2026-09-04T07:23:43.212Z"
+      "last_seen": "2026-09-04T16:30:07.638Z"
     },
     {
       "id": "devpost-call-e-your-code-is-calling",
@@ -70,7 +70,7 @@
       ],
       "prize_inr": 900000,
       "rounds": [],
-      "last_seen": "2026-09-04T07:23:43.212Z"
+      "last_seen": "2026-09-04T16:30:07.638Z"
     },
     {
       "id": "devpost-reverie-hacks-2026",
@@ -106,7 +106,7 @@
       ],
       "prize_inr": 3051000,
       "rounds": [],
-      "last_seen": "2026-09-04T07:23:43.212Z"
+      "last_seen": "2026-09-04T16:30:07.638Z"
     },
     {
       "id": "devpost-volthacks",
@@ -171,9 +171,9 @@
         "model": "unstop-detail-api",
         "confidence": 1,
         "needs_review": false,
-        "parsed_at": "2026-09-04T07:23:43.212Z"
+        "parsed_at": "2026-09-04T16:30:07.638Z"
       },
-      "source_hash": "sha256:cfddf6933b1c4c2f27025b05c2fc46dafb69d35e6600f163868edbd2fbd019f5",
+      "source_hash": "sha256:24210fc062987eb54540f1c9568b839f45c10289073ead878a2b42224cf8faef",
       "last_seen": "2026-08-23T21:40:37.502Z"
     },
     {
@@ -233,9 +233,9 @@
         "model": "unstop-detail-api",
         "confidence": 1,
         "needs_review": false,
-        "parsed_at": "2026-09-04T07:23:43.212Z"
+        "parsed_at": "2026-09-04T16:30:07.638Z"
       },
-      "source_hash": "sha256:f30ce72c4102433136ac2fa02fd8acce0815a9b23b5755242787831d75cceccf",
+      "source_hash": "sha256:b1edb277c35644a02992778e3e332175f7552cb29afd900b40227ce98c5fc5bc",
       "last_seen": "2026-08-23T21:40:45.048Z",
       "sent": [
         "r2:T-7d",
@@ -279,7 +279,7 @@
       ],
       "prize_inr": 4500000,
       "rounds": [],
-      "last_seen": "2026-09-04T07:23:43.212Z"
+      "last_seen": "2026-09-04T16:30:07.638Z"
     },
     {
       "id": "devpost-build-ship-shape-amazon-developer-hackathon",
@@ -297,7 +297,7 @@
       ],
       "prize_inr": 12420000,
       "rounds": [],
-      "last_seen": "2026-09-04T07:23:43.212Z"
+      "last_seen": "2026-09-04T16:30:07.638Z"
     }
   ]
 }
