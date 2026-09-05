@@ -52,7 +52,7 @@
       ],
       "prize_inr": 3600000,
       "rounds": [],
-      "last_seen": "2026-09-05T07:03:33.422Z"
+      "last_seen": "2026-09-05T15:23:07.474Z"
     },
     {
       "id": "devpost-call-e-your-code-is-calling",
@@ -70,7 +70,7 @@
       ],
       "prize_inr": 900000,
       "rounds": [],
-      "last_seen": "2026-09-05T07:03:33.422Z"
+      "last_seen": "2026-09-05T15:23:07.474Z"
     },
     {
       "id": "devpost-reverie-hacks-2026",
@@ -106,7 +106,7 @@
       ],
       "prize_inr": 3051000,
       "rounds": [],
-      "last_seen": "2026-09-05T07:03:33.422Z"
+      "last_seen": "2026-09-05T15:23:07.474Z"
     },
     {
       "id": "devpost-volthacks",
@@ -171,9 +171,9 @@
         "model": "unstop-detail-api",
         "confidence": 1,
         "needs_review": false,
-        "parsed_at": "2026-09-05T07:03:33.422Z"
+        "parsed_at": "2026-09-05T15:23:07.474Z"
       },
-      "source_hash": "sha256:8adb635a324219726a6ea7aeb7901afbe93a370a10b229deb4247da0e3fda095",
+      "source_hash": "sha256:edf7e3b15ae949e0eb8b82be72948cef159338c21fb1474b199784abc31313a9",
       "last_seen": "2026-08-23T21:40:37.502Z"
     },
     {
@@ -233,9 +233,9 @@
         "model": "unstop-detail-api",
         "confidence": 1,
         "needs_review": false,
-        "parsed_at": "2026-09-05T07:03:33.422Z"
+        "parsed_at": "2026-09-05T15:23:07.474Z"
       },
-      "source_hash": "sha256:10451398abb268f7a38301e2867c8257d77ebcd88237122f7270da95369803c7",
+      "source_hash": "sha256:e301bd0d419b268c3961d49ec230edf5e4e32ebbf60878208a1fd4ad56756dee",
       "last_seen": "2026-08-23T21:40:45.048Z",
       "sent": [
         "r2:T-7d",
@@ -279,7 +279,7 @@
       ],
       "prize_inr": 4500000,
       "rounds": [],
-      "last_seen": "2026-09-05T07:03:33.422Z"
+      "last_seen": "2026-09-05T15:23:07.474Z"
     },
     {
       "id": "devpost-build-ship-shape-amazon-developer-hackathon",
@@ -297,7 +297,7 @@
       ],
       "prize_inr": 12420000,
       "rounds": [],
-      "last_seen": "2026-09-05T07:03:33.422Z"
+      "last_seen": "2026-09-05T15:23:07.474Z"
     },
     {
       "id": "devpost-opencv-ai-competition-2026-powered-by-aws",
@@ -306,16 +306,16 @@
       "url": "https://opencv26.devpost.com/",
       "detected_by": "discovery",
       "status": "candidate",
+      "mode": "online",
+      "location": "Online",
       "tags": [
         "iot",
         "machine learning/ai",
         "serverless"
       ],
-      "mode": "online",
-      "location": "Online",
       "prize_inr": 1822500,
       "rounds": [],
-      "last_seen": "2026-09-05T07:03:33.422Z"
+      "last_seen": "2026-09-05T15:23:07.474Z"
     }
   ]
 }
