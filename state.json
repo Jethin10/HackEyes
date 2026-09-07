@@ -52,7 +52,7 @@
       ],
       "prize_inr": 3600000,
       "rounds": [],
-      "last_seen": "2026-09-07T07:28:33.729Z"
+      "last_seen": "2026-09-07T17:47:46.529Z"
     },
     {
       "id": "devpost-call-e-your-code-is-calling",
@@ -70,7 +70,7 @@
       ],
       "prize_inr": 900000,
       "rounds": [],
-      "last_seen": "2026-09-07T07:28:33.729Z"
+      "last_seen": "2026-09-07T17:47:46.529Z"
     },
     {
       "id": "devpost-reverie-hacks-2026",
@@ -106,7 +106,7 @@
       ],
       "prize_inr": 3051000,
       "rounds": [],
-      "last_seen": "2026-09-07T07:28:33.729Z"
+      "last_seen": "2026-09-07T17:47:46.529Z"
     },
     {
       "id": "devpost-volthacks",
@@ -124,7 +124,7 @@
       ],
       "prize_inr": 3220650,
       "rounds": [],
-      "last_seen": "2026-09-07T07:28:33.729Z"
+      "last_seen": "2026-09-07T17:47:46.529Z"
     },
     {
       "id": "unstop-1708902",
@@ -171,9 +171,9 @@
         "model": "unstop-detail-api",
         "confidence": 1,
         "needs_review": false,
-        "parsed_at": "2026-09-07T07:28:33.729Z"
+        "parsed_at": "2026-09-07T17:47:46.529Z"
       },
-      "source_hash": "sha256:d4b974aaf4fe1873dbc422ebb0e66d0c50fcd2e6d49cc4998285b3ff136e6f22",
+      "source_hash": "sha256:e70d6db5331124fa443b89c67973245241743aef442f6cd59d3012fbf60b8abd",
       "last_seen": "2026-08-23T21:40:37.502Z"
     },
     {
@@ -233,9 +233,9 @@
         "model": "unstop-detail-api",
         "confidence": 1,
         "needs_review": false,
-        "parsed_at": "2026-09-07T07:28:33.729Z"
+        "parsed_at": "2026-09-07T17:47:46.529Z"
       },
-      "source_hash": "sha256:3871a58665c423cdc91e6aa5b75445da0d316db820aa30168d59401edfefeb90",
+      "source_hash": "sha256:b6da548eb1f24aec9bc9985a58dfda4f1f501d113e11999254ba7963576a9ee8",
       "last_seen": "2026-08-23T21:40:45.048Z",
       "sent": [
         "r2:T-7d",
@@ -279,7 +279,7 @@
       ],
       "prize_inr": 4500000,
       "rounds": [],
-      "last_seen": "2026-09-07T07:28:33.729Z"
+      "last_seen": "2026-09-07T17:47:46.529Z"
     },
     {
       "id": "devpost-build-ship-shape-amazon-developer-hackathon",
@@ -297,7 +297,7 @@
       ],
       "prize_inr": 12420000,
       "rounds": [],
-      "last_seen": "2026-09-07T07:28:33.729Z"
+      "last_seen": "2026-09-07T17:47:46.529Z"
     },
     {
       "id": "devpost-opencv-ai-competition-2026-powered-by-aws",
@@ -315,7 +315,7 @@
       ],
       "prize_inr": 1822500,
       "rounds": [],
-      "last_seen": "2026-09-07T07:28:33.729Z"
+      "last_seen": "2026-09-07T17:47:46.529Z"
     }
   ]
 }
