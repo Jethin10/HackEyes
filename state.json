@@ -52,7 +52,7 @@
       ],
       "prize_inr": 3600000,
       "rounds": [],
-      "last_seen": "2026-09-08T07:23:24.818Z"
+      "last_seen": "2026-09-08T16:45:47.891Z"
     },
     {
       "id": "devpost-call-e-your-code-is-calling",
@@ -70,7 +70,7 @@
       ],
       "prize_inr": 900000,
       "rounds": [],
-      "last_seen": "2026-09-08T07:23:24.818Z"
+      "last_seen": "2026-09-08T16:45:47.891Z"
     },
     {
       "id": "devpost-reverie-hacks-2026",
@@ -106,7 +106,7 @@
       ],
       "prize_inr": 3051000,
       "rounds": [],
-      "last_seen": "2026-09-08T07:23:24.818Z"
+      "last_seen": "2026-09-08T16:45:47.891Z"
     },
     {
       "id": "devpost-volthacks",
@@ -171,9 +171,9 @@
         "model": "unstop-detail-api",
         "confidence": 1,
         "needs_review": false,
-        "parsed_at": "2026-09-08T07:23:24.818Z"
+        "parsed_at": "2026-09-08T16:45:47.891Z"
       },
-      "source_hash": "sha256:e95c542520a90f1fdb1c52523e31458a1e55cc7f04a13ed303ec14ba0d1058e0",
+      "source_hash": "sha256:39bbd67419d16b21fa216a30027b98d5d7e18380a841bdfae58f1a68b54feb87",
       "last_seen": "2026-08-23T21:40:37.502Z"
     },
     {
@@ -233,9 +233,9 @@
         "model": "unstop-detail-api",
         "confidence": 1,
         "needs_review": false,
-        "parsed_at": "2026-09-08T07:23:24.818Z"
+        "parsed_at": "2026-09-08T16:45:47.891Z"
       },
-      "source_hash": "sha256:550b8702b6fc0ec173b079f83f59c7f02c5a6f8fee740c42e2869b189fc09ade",
+      "source_hash": "sha256:e0b209ffe1b27fd7651d1df25b78a6cfa42790f18f3ea240f2120181c64ec6a0",
       "last_seen": "2026-08-23T21:40:45.048Z",
       "sent": [
         "r2:T-7d",
@@ -279,7 +279,7 @@
       ],
       "prize_inr": 4500000,
       "rounds": [],
-      "last_seen": "2026-09-08T07:23:24.818Z"
+      "last_seen": "2026-09-08T16:45:47.891Z"
     },
     {
       "id": "devpost-build-ship-shape-amazon-developer-hackathon",
@@ -297,7 +297,7 @@
       ],
       "prize_inr": 12420000,
       "rounds": [],
-      "last_seen": "2026-09-08T07:23:24.818Z"
+      "last_seen": "2026-09-08T16:45:47.891Z"
     },
     {
       "id": "devpost-opencv-ai-competition-2026-powered-by-aws",
@@ -315,7 +315,7 @@
       ],
       "prize_inr": 1822500,
       "rounds": [],
-      "last_seen": "2026-09-08T07:23:24.818Z"
+      "last_seen": "2026-09-08T16:45:47.891Z"
     }
   ]
 }
