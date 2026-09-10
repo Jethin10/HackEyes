@@ -171,9 +171,9 @@
         "model": "unstop-detail-api",
         "confidence": 1,
         "needs_review": false,
-        "parsed_at": "2026-09-09T16:47:59.530Z"
+        "parsed_at": "2026-09-10T07:26:53.280Z"
       },
-      "source_hash": "sha256:3131a1da2903fb3636716f20b594cb3a48163d6e0f225288ecf715b2dbb29f50",
+      "source_hash": "sha256:a2f1552ef8b2c19d06117df00756b97ceb02169e1f0f96df7fe03a4051b34488",
       "last_seen": "2026-08-23T21:40:37.502Z"
     },
     {
@@ -233,9 +233,9 @@
         "model": "unstop-detail-api",
         "confidence": 1,
         "needs_review": false,
-        "parsed_at": "2026-09-09T16:47:59.530Z"
+        "parsed_at": "2026-09-10T07:26:53.280Z"
       },
-      "source_hash": "sha256:7f97358495d62e0e85273d0e5b3e9e159e7f2a95e5628b2c1f22d2a022e82e33",
+      "source_hash": "sha256:0f3c5f641c6b5452f9b447f592ffe4d981488102e66fe3b14e9f0ca77260b5fb",
       "last_seen": "2026-08-23T21:40:45.048Z",
       "sent": [
         "r2:T-7d",
@@ -279,7 +279,7 @@
       ],
       "prize_inr": 4500000,
       "rounds": [],
-      "last_seen": "2026-09-09T16:47:59.530Z"
+      "last_seen": "2026-09-10T07:26:53.280Z"
     },
     {
       "id": "devpost-build-ship-shape-amazon-developer-hackathon",
@@ -297,7 +297,7 @@
       ],
       "prize_inr": 12420000,
       "rounds": [],
-      "last_seen": "2026-09-09T16:47:59.530Z"
+      "last_seen": "2026-09-10T07:26:53.280Z"
     },
     {
       "id": "devpost-opencv-ai-competition-2026-powered-by-aws",
@@ -315,7 +315,25 @@
       ],
       "prize_inr": 1822500,
       "rounds": [],
-      "last_seen": "2026-09-09T16:47:59.530Z"
+      "last_seen": "2026-09-10T07:26:53.280Z"
+    },
+    {
+      "id": "devpost-gatewayhacks-2026-software-ai",
+      "name": "GatewayHacks 2026 | Software & AI ",
+      "source": "devpost",
+      "url": "https://gatewayhacks-2026.devpost.com/",
+      "detected_by": "discovery",
+      "status": "candidate",
+      "tags": [
+        "beginner friendly",
+        "machine learning/ai",
+        "open ended"
+      ],
+      "mode": "online",
+      "location": "Online",
+      "prize_inr": 90637650,
+      "rounds": [],
+      "last_seen": "2026-09-10T07:26:53.280Z"
     }
   ]
 }
