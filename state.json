@@ -171,9 +171,9 @@
         "model": "unstop-detail-api",
         "confidence": 1,
         "needs_review": false,
-        "parsed_at": "2026-09-11T07:25:07.230Z"
+        "parsed_at": "2026-09-11T16:38:22.808Z"
       },
-      "source_hash": "sha256:b11ec2e9686509c24e21eb0040b45a1ce945c289a4e36fd4d55f34c85c0e0a4b",
+      "source_hash": "sha256:d5a3779666cefe8d5027b28c2ba46fae159e795dd273725b6ea604d86c5b2d86",
       "last_seen": "2026-08-23T21:40:37.502Z"
     },
     {
@@ -233,9 +233,9 @@
         "model": "unstop-detail-api",
         "confidence": 1,
         "needs_review": false,
-        "parsed_at": "2026-09-11T07:25:07.230Z"
+        "parsed_at": "2026-09-11T16:38:22.808Z"
       },
-      "source_hash": "sha256:7277d2761d2630ff02ffa8e75660a8eb1959fdf800bfd485be8eaabd12468ac9",
+      "source_hash": "sha256:a98ae54a45341ba61c600c6dc624cba7214e3934ab5c08d108953ffe2d42955e",
       "last_seen": "2026-08-23T21:40:45.048Z",
       "sent": [
         "r2:T-7d",
@@ -279,7 +279,7 @@
       ],
       "prize_inr": 4500000,
       "rounds": [],
-      "last_seen": "2026-09-11T07:25:07.230Z"
+      "last_seen": "2026-09-11T16:38:22.808Z"
     },
     {
       "id": "devpost-build-ship-shape-amazon-developer-hackathon",
@@ -297,7 +297,7 @@
       ],
       "prize_inr": 12420000,
       "rounds": [],
-      "last_seen": "2026-09-11T07:25:07.230Z"
+      "last_seen": "2026-09-11T16:38:22.808Z"
     },
     {
       "id": "devpost-opencv-ai-competition-2026-powered-by-aws",
@@ -315,7 +315,7 @@
       ],
       "prize_inr": 1822500,
       "rounds": [],
-      "last_seen": "2026-09-11T07:25:07.230Z"
+      "last_seen": "2026-09-11T16:38:22.808Z"
     },
     {
       "id": "devpost-gatewayhacks-2026-software-ai",
@@ -333,7 +333,7 @@
       ],
       "prize_inr": 90637650,
       "rounds": [],
-      "last_seen": "2026-09-11T07:25:07.230Z"
+      "last_seen": "2026-09-11T16:38:22.808Z"
     }
   ]
 }
