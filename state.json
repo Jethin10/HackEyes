@@ -171,9 +171,9 @@
         "model": "unstop-detail-api",
         "confidence": 1,
         "needs_review": false,
-        "parsed_at": "2026-09-12T07:17:22.302Z"
+        "parsed_at": "2026-09-12T15:40:07.327Z"
       },
-      "source_hash": "sha256:6e7254f56898882e2fc4adc4a87af1b2ad1be1e67efaf139fa11c8725ab5b3ff",
+      "source_hash": "sha256:f5c581084f8f332f01c4d35e46d3710e6b3c909852006e9207a1173380eff67c",
       "last_seen": "2026-08-23T21:40:37.502Z"
     },
     {
@@ -233,9 +233,9 @@
         "model": "unstop-detail-api",
         "confidence": 1,
         "needs_review": false,
-        "parsed_at": "2026-09-12T07:17:22.302Z"
+        "parsed_at": "2026-09-12T15:40:07.327Z"
       },
-      "source_hash": "sha256:c3e1cdb0763185e8ecf822d6fc778382f87d5f0d5b45021b2a9a4e9dcd52b07d",
+      "source_hash": "sha256:388c1fb135301740bf5cff1222b4993c5379e6287bed08427b600f243836be80",
       "last_seen": "2026-08-23T21:40:45.048Z",
       "sent": [
         "r2:T-7d",
@@ -279,7 +279,7 @@
       ],
       "prize_inr": 4500000,
       "rounds": [],
-      "last_seen": "2026-09-12T07:17:22.302Z"
+      "last_seen": "2026-09-12T15:40:07.327Z"
     },
     {
       "id": "devpost-build-ship-shape-amazon-developer-hackathon",
@@ -297,7 +297,7 @@
       ],
       "prize_inr": 12420000,
       "rounds": [],
-      "last_seen": "2026-09-12T07:17:22.302Z"
+      "last_seen": "2026-09-12T15:40:07.327Z"
     },
     {
       "id": "devpost-opencv-ai-competition-2026-powered-by-aws",
@@ -315,7 +315,7 @@
       ],
       "prize_inr": 1822500,
       "rounds": [],
-      "last_seen": "2026-09-12T07:17:22.302Z"
+      "last_seen": "2026-09-12T15:40:07.327Z"
     },
     {
       "id": "devpost-gatewayhacks-2026-software-ai",
@@ -342,16 +342,16 @@
       "url": "https://gibc-v2.devpost.com/",
       "detected_by": "discovery",
       "status": "candidate",
+      "mode": "online",
+      "location": "Online",
       "tags": [
         "machine learning/ai",
         "social good",
         "beginner friendly"
       ],
-      "mode": "online",
-      "location": "Online",
       "prize_inr": 14087250,
       "rounds": [],
-      "last_seen": "2026-09-12T07:17:22.302Z"
+      "last_seen": "2026-09-12T15:40:07.327Z"
     }
   ]
 }
