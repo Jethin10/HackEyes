@@ -171,9 +171,9 @@
         "model": "unstop-detail-api",
         "confidence": 1,
         "needs_review": false,
-        "parsed_at": "2026-09-13T16:31:36.736Z"
+        "parsed_at": "2026-09-14T08:02:23.797Z"
       },
-      "source_hash": "sha256:e2e86537a2240e14f30d405323ac8b54da1ba8bc615e1e6d75c1632e9df94645",
+      "source_hash": "sha256:e5492c699137ef3b33d3242ef0ad590226d10329b7f8bd6c423031190c57e726",
       "last_seen": "2026-08-23T21:40:37.502Z"
     },
     {
@@ -233,9 +233,9 @@
         "model": "unstop-detail-api",
         "confidence": 1,
         "needs_review": false,
-        "parsed_at": "2026-09-13T16:31:36.736Z"
+        "parsed_at": "2026-09-14T08:02:23.797Z"
       },
-      "source_hash": "sha256:74c3ce4efef7f52938e45b53a333463e4a20826ceb3c0ff9926a5e8fdcd5f31e",
+      "source_hash": "sha256:628799b1f4fae24bcf558b544e30192973b8d021a48979bc7588a2f7b204dbb5",
       "last_seen": "2026-08-23T21:40:45.048Z",
       "sent": [
         "r2:T-7d",
@@ -279,7 +279,7 @@
       ],
       "prize_inr": 4500000,
       "rounds": [],
-      "last_seen": "2026-09-13T16:31:36.736Z"
+      "last_seen": "2026-09-14T08:02:23.797Z"
     },
     {
       "id": "devpost-build-ship-shape-amazon-developer-hackathon",
@@ -297,7 +297,7 @@
       ],
       "prize_inr": 12420000,
       "rounds": [],
-      "last_seen": "2026-09-13T16:31:36.736Z"
+      "last_seen": "2026-09-14T08:02:23.797Z"
     },
     {
       "id": "devpost-opencv-ai-competition-2026-powered-by-aws",
@@ -315,7 +315,7 @@
       ],
       "prize_inr": 1822500,
       "rounds": [],
-      "last_seen": "2026-09-13T16:31:36.736Z"
+      "last_seen": "2026-09-14T08:02:23.797Z"
     },
     {
       "id": "devpost-gatewayhacks-2026-software-ai",
@@ -351,7 +351,25 @@
       ],
       "prize_inr": 14087250,
       "rounds": [],
-      "last_seen": "2026-09-13T16:31:36.736Z"
+      "last_seen": "2026-09-14T08:02:23.797Z"
+    },
+    {
+      "id": "devpost-nextstep-hacks-2026",
+      "name": "NextStep Hacks 2026",
+      "source": "devpost",
+      "url": "https://nextstep2026.devpost.com/",
+      "detected_by": "discovery",
+      "status": "candidate",
+      "tags": [
+        "beginner friendly",
+        "machine learning/ai",
+        "social good"
+      ],
+      "mode": "online",
+      "location": "Online",
+      "prize_inr": 157500,
+      "rounds": [],
+      "last_seen": "2026-09-14T08:02:23.797Z"
     }
   ]
 }
