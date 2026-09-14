@@ -171,9 +171,9 @@
         "model": "unstop-detail-api",
         "confidence": 1,
         "needs_review": false,
-        "parsed_at": "2026-09-14T08:02:23.797Z"
+        "parsed_at": "2026-09-14T18:07:16.321Z"
       },
-      "source_hash": "sha256:e5492c699137ef3b33d3242ef0ad590226d10329b7f8bd6c423031190c57e726",
+      "source_hash": "sha256:fbe00e9672db82106b2a5c818bf16b7d5ef7f4a24947b2ccc9e208242c9bebdf",
       "last_seen": "2026-08-23T21:40:37.502Z"
     },
     {
@@ -233,9 +233,9 @@
         "model": "unstop-detail-api",
         "confidence": 1,
         "needs_review": false,
-        "parsed_at": "2026-09-14T08:02:23.797Z"
+        "parsed_at": "2026-09-14T18:07:16.321Z"
       },
-      "source_hash": "sha256:628799b1f4fae24bcf558b544e30192973b8d021a48979bc7588a2f7b204dbb5",
+      "source_hash": "sha256:f76cf5ff94961053bd0b2ac1c02400ff7b6abc73cb3fcedbeed922112257e8b9",
       "last_seen": "2026-08-23T21:40:45.048Z",
       "sent": [
         "r2:T-7d",
@@ -279,7 +279,7 @@
       ],
       "prize_inr": 4500000,
       "rounds": [],
-      "last_seen": "2026-09-14T08:02:23.797Z"
+      "last_seen": "2026-09-14T18:07:16.321Z"
     },
     {
       "id": "devpost-build-ship-shape-amazon-developer-hackathon",
@@ -297,7 +297,7 @@
       ],
       "prize_inr": 12420000,
       "rounds": [],
-      "last_seen": "2026-09-14T08:02:23.797Z"
+      "last_seen": "2026-09-14T18:07:16.321Z"
     },
     {
       "id": "devpost-opencv-ai-competition-2026-powered-by-aws",
@@ -315,7 +315,7 @@
       ],
       "prize_inr": 1822500,
       "rounds": [],
-      "last_seen": "2026-09-14T08:02:23.797Z"
+      "last_seen": "2026-09-14T18:07:16.321Z"
     },
     {
       "id": "devpost-gatewayhacks-2026-software-ai",
@@ -351,7 +351,7 @@
       ],
       "prize_inr": 14087250,
       "rounds": [],
-      "last_seen": "2026-09-14T08:02:23.797Z"
+      "last_seen": "2026-09-14T18:07:16.321Z"
     },
     {
       "id": "devpost-nextstep-hacks-2026",
@@ -360,16 +360,34 @@
       "url": "https://nextstep2026.devpost.com/",
       "detected_by": "discovery",
       "status": "candidate",
+      "mode": "online",
+      "location": "Online",
       "tags": [
         "beginner friendly",
         "machine learning/ai",
         "social good"
       ],
-      "mode": "online",
-      "location": "Online",
       "prize_inr": 157500,
       "rounds": [],
-      "last_seen": "2026-09-14T08:02:23.797Z"
+      "last_seen": "2026-09-14T18:07:16.321Z"
+    },
+    {
+      "id": "devpost-oneaquahealth-ieee-global-hackathon",
+      "name": "OneAquaHealth IEEE Global Hackathon",
+      "source": "devpost",
+      "url": "https://oneaquahealth-ieee-hackathon.devpost.com/",
+      "detected_by": "discovery",
+      "status": "candidate",
+      "tags": [
+        "health",
+        "machine learning/ai",
+        "social good"
+      ],
+      "mode": "online",
+      "location": "Online",
+      "prize_inr": 315000,
+      "rounds": [],
+      "last_seen": "2026-09-14T18:07:16.321Z"
     }
   ]
 }
