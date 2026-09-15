@@ -171,9 +171,9 @@
         "model": "unstop-detail-api",
         "confidence": 1,
         "needs_review": false,
-        "parsed_at": "2026-09-15T07:57:18.604Z"
+        "parsed_at": "2026-09-15T17:10:15.085Z"
       },
-      "source_hash": "sha256:d862acf7d4676904f8edcf0a6258495fe781f902a6db5fb44632530f28ab2149",
+      "source_hash": "sha256:54172d4dfef7eedb9d7943e8cd58512bfc8832a80748d0c81ed919ab9e6deb00",
       "last_seen": "2026-08-23T21:40:37.502Z"
     },
     {
@@ -233,9 +233,9 @@
         "model": "unstop-detail-api",
         "confidence": 1,
         "needs_review": false,
-        "parsed_at": "2026-09-15T07:57:18.604Z"
+        "parsed_at": "2026-09-15T17:10:15.085Z"
       },
-      "source_hash": "sha256:7558a73c95756033636e32aab24b2af6ac5788a7e03bae3aefff7eda5eadcd14",
+      "source_hash": "sha256:15a3cce8bdd551942fcb4b9113b8fa8ecba6224d75cd9bffeb67ffe056406aa0",
       "last_seen": "2026-08-23T21:40:45.048Z",
       "sent": [
         "r2:T-7d",
@@ -279,7 +279,7 @@
       ],
       "prize_inr": 4500000,
       "rounds": [],
-      "last_seen": "2026-09-15T07:57:18.604Z"
+      "last_seen": "2026-09-15T17:10:15.085Z"
     },
     {
       "id": "devpost-build-ship-shape-amazon-developer-hackathon",
@@ -297,7 +297,7 @@
       ],
       "prize_inr": 12420000,
       "rounds": [],
-      "last_seen": "2026-09-15T07:57:18.604Z"
+      "last_seen": "2026-09-15T17:10:15.085Z"
     },
     {
       "id": "devpost-opencv-ai-competition-2026-powered-by-aws",
@@ -315,7 +315,7 @@
       ],
       "prize_inr": 1822500,
       "rounds": [],
-      "last_seen": "2026-09-15T07:57:18.604Z"
+      "last_seen": "2026-09-15T17:10:15.085Z"
     },
     {
       "id": "devpost-gatewayhacks-2026-software-ai",
@@ -351,7 +351,7 @@
       ],
       "prize_inr": 14087250,
       "rounds": [],
-      "last_seen": "2026-09-15T07:57:18.604Z"
+      "last_seen": "2026-09-15T17:10:15.085Z"
     },
     {
       "id": "devpost-nextstep-hacks-2026",
@@ -387,7 +387,25 @@
       ],
       "prize_inr": 315000,
       "rounds": [],
-      "last_seen": "2026-09-15T07:57:18.604Z"
+      "last_seen": "2026-09-15T17:10:15.085Z"
+    },
+    {
+      "id": "devpost-aws-communication-developer-services-cds-agentic-ai-partner-",
+      "name": "AWS Communication Developer Services (CDS) Agentic AI Partner Hackathon",
+      "source": "devpost",
+      "url": "https://aws-cds-partner.devpost.com/",
+      "detected_by": "discovery",
+      "status": "candidate",
+      "tags": [
+        "communication",
+        "mobile",
+        "machine learning/ai"
+      ],
+      "mode": "online",
+      "location": "Online",
+      "prize_inr": 3600000,
+      "rounds": [],
+      "last_seen": "2026-09-15T17:10:15.085Z"
     }
   ]
 }
