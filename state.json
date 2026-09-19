@@ -171,9 +171,9 @@
         "model": "unstop-detail-api",
         "confidence": 1,
         "needs_review": false,
-        "parsed_at": "2026-09-19T07:29:12.133Z"
+        "parsed_at": "2026-09-19T15:58:44.601Z"
       },
-      "source_hash": "sha256:ec83a9607ebe2ea72ab5d65296d7f28059a53fef3aee8f5fe0673d5818c98e95",
+      "source_hash": "sha256:80a5fc312e3629e4b7fbf8ff2d4bde8033964d687177b77714f84c55088fd9a5",
       "last_seen": "2026-08-23T21:40:37.502Z"
     },
     {
@@ -233,9 +233,9 @@
         "model": "unstop-detail-api",
         "confidence": 1,
         "needs_review": false,
-        "parsed_at": "2026-09-19T07:29:12.133Z"
+        "parsed_at": "2026-09-19T15:58:44.601Z"
       },
-      "source_hash": "sha256:ca31ff7483a329dc152d1c301f55ed64169460ecd6e25982a366c16429b164f6",
+      "source_hash": "sha256:8867b0c5b1103d78f1e46840006469136b2718254a9f13d7c78b8e1fe68fec8b",
       "last_seen": "2026-08-23T21:40:45.048Z",
       "sent": [
         "r2:T-7d",
@@ -279,7 +279,7 @@
       ],
       "prize_inr": 4500000,
       "rounds": [],
-      "last_seen": "2026-09-19T07:29:12.133Z"
+      "last_seen": "2026-09-19T15:58:44.601Z"
     },
     {
       "id": "devpost-build-ship-shape-amazon-developer-hackathon",
@@ -297,7 +297,7 @@
       ],
       "prize_inr": 12420000,
       "rounds": [],
-      "last_seen": "2026-09-19T07:29:12.133Z"
+      "last_seen": "2026-09-19T15:58:44.601Z"
     },
     {
       "id": "devpost-opencv-ai-competition-2026-powered-by-aws",
@@ -315,7 +315,7 @@
       ],
       "prize_inr": 1822500,
       "rounds": [],
-      "last_seen": "2026-09-19T07:29:12.133Z"
+      "last_seen": "2026-09-19T15:58:44.601Z"
     },
     {
       "id": "devpost-gatewayhacks-2026-software-ai",
@@ -351,7 +351,7 @@
       ],
       "prize_inr": 14087250,
       "rounds": [],
-      "last_seen": "2026-09-19T07:29:12.133Z"
+      "last_seen": "2026-09-19T15:58:44.601Z"
     },
     {
       "id": "devpost-nextstep-hacks-2026",
@@ -387,7 +387,7 @@
       ],
       "prize_inr": 315000,
       "rounds": [],
-      "last_seen": "2026-09-19T07:29:12.133Z"
+      "last_seen": "2026-09-19T15:58:44.601Z"
     },
     {
       "id": "devpost-aws-communication-developer-services-cds-agentic-ai-partner-",
@@ -405,7 +405,7 @@
       ],
       "prize_inr": 3600000,
       "rounds": [],
-      "last_seen": "2026-09-19T07:29:12.133Z"
+      "last_seen": "2026-09-19T15:58:44.601Z"
     }
   ]
 }
