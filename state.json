@@ -78,7 +78,7 @@
       "source": "devpost",
       "url": "https://reverie-hacks-2026.devpost.com/",
       "detected_by": "discovery",
-      "status": "candidate",
+      "status": "passed",
       "mode": "online",
       "location": "Online",
       "tags": [
@@ -171,9 +171,9 @@
         "model": "unstop-detail-api",
         "confidence": 1,
         "needs_review": false,
-        "parsed_at": "2026-09-22T17:06:24.585Z"
+        "parsed_at": "2026-09-23T07:54:09.351Z"
       },
-      "source_hash": "sha256:c5c79669fcc217ea4087a4555dbd6bb28d4cb870dd216851d993aac39681af32",
+      "source_hash": "sha256:dd518eed1f1c8eb3995293ba819d80b424c5b5af6d0f8fbb8e9a67a018d4fbc8",
       "last_seen": "2026-08-23T21:40:37.502Z"
     },
     {
@@ -233,9 +233,9 @@
         "model": "unstop-detail-api",
         "confidence": 1,
         "needs_review": false,
-        "parsed_at": "2026-09-22T17:06:24.585Z"
+        "parsed_at": "2026-09-23T07:54:09.351Z"
       },
-      "source_hash": "sha256:1ba92959b9d0e1b4344fed1f1a6117e7fd92144339f2c10813da1a3b2a84eb4c",
+      "source_hash": "sha256:672fd7dbf827c0e25a56fe7b4bfbca7d7e1a48a20b24a0acf36ec03ae7a0ddf5",
       "last_seen": "2026-08-23T21:40:45.048Z",
       "sent": [
         "r2:T-7d",
@@ -279,7 +279,7 @@
       ],
       "prize_inr": 4500000,
       "rounds": [],
-      "last_seen": "2026-09-22T17:06:24.585Z"
+      "last_seen": "2026-09-23T07:54:09.351Z"
     },
     {
       "id": "devpost-build-ship-shape-amazon-developer-hackathon",
@@ -297,7 +297,7 @@
       ],
       "prize_inr": 12420000,
       "rounds": [],
-      "last_seen": "2026-09-22T17:06:24.585Z"
+      "last_seen": "2026-09-23T07:54:09.351Z"
     },
     {
       "id": "devpost-opencv-ai-competition-2026-powered-by-aws",
@@ -315,7 +315,7 @@
       ],
       "prize_inr": 1822500,
       "rounds": [],
-      "last_seen": "2026-09-22T17:06:24.585Z"
+      "last_seen": "2026-09-23T07:54:09.351Z"
     },
     {
       "id": "devpost-gatewayhacks-2026-software-ai",
@@ -351,7 +351,7 @@
       ],
       "prize_inr": 14087250,
       "rounds": [],
-      "last_seen": "2026-09-22T17:06:24.585Z"
+      "last_seen": "2026-09-23T07:54:09.351Z"
     },
     {
       "id": "devpost-nextstep-hacks-2026",
@@ -387,7 +387,7 @@
       ],
       "prize_inr": 315000,
       "rounds": [],
-      "last_seen": "2026-09-22T17:06:24.585Z"
+      "last_seen": "2026-09-23T07:54:09.351Z"
     },
     {
       "id": "devpost-aws-communication-developer-services-cds-agentic-ai-partner-",
@@ -405,7 +405,7 @@
       ],
       "prize_inr": 3600000,
       "rounds": [],
-      "last_seen": "2026-09-22T17:06:24.585Z"
+      "last_seen": "2026-09-23T07:54:09.351Z"
     },
     {
       "id": "devpost-mlai-hackathon-2026",
@@ -421,7 +421,7 @@
         "machine learning/ai"
       ],
       "rounds": [],
-      "last_seen": "2026-09-22T17:06:24.585Z"
+      "last_seen": "2026-09-23T07:54:09.351Z"
     }
   ]
 }
