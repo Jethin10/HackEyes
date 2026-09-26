@@ -171,9 +171,9 @@
         "model": "unstop-detail-api",
         "confidence": 1,
         "needs_review": false,
-        "parsed_at": "2026-09-26T07:55:58.753Z"
+        "parsed_at": "2026-09-26T16:33:27.421Z"
       },
-      "source_hash": "sha256:e030edd5f851ce7a22fdfed08ba107fd92b139d1ce4a5433fad169191b2288b9",
+      "source_hash": "sha256:55cf39fcc0e5c599d4937b922298b34927bcfb8666dbb23ebc3d55a750e471f7",
       "last_seen": "2026-08-23T21:40:37.502Z"
     },
     {
@@ -233,9 +233,9 @@
         "model": "unstop-detail-api",
         "confidence": 1,
         "needs_review": false,
-        "parsed_at": "2026-09-26T07:55:58.753Z"
+        "parsed_at": "2026-09-26T16:33:27.421Z"
       },
-      "source_hash": "sha256:915a33065bfe191fad6ff2e1a2e79897c400c4e962bb3dd3950171bc720d0e6f",
+      "source_hash": "sha256:c555981c71eb4861eb554d54f007cc1801edad86926804f5a30f4865d617ac70",
       "last_seen": "2026-08-23T21:40:45.048Z",
       "sent": [
         "r2:T-7d",
@@ -279,7 +279,7 @@
       ],
       "prize_inr": 4500000,
       "rounds": [],
-      "last_seen": "2026-09-26T07:55:58.753Z"
+      "last_seen": "2026-09-26T16:33:27.421Z"
     },
     {
       "id": "devpost-build-ship-shape-amazon-developer-hackathon",
@@ -297,7 +297,7 @@
       ],
       "prize_inr": 12420000,
       "rounds": [],
-      "last_seen": "2026-09-26T07:55:58.753Z"
+      "last_seen": "2026-09-26T16:33:27.421Z"
     },
     {
       "id": "devpost-opencv-ai-competition-2026-powered-by-aws",
@@ -315,7 +315,7 @@
       ],
       "prize_inr": 1822500,
       "rounds": [],
-      "last_seen": "2026-09-26T07:55:58.753Z"
+      "last_seen": "2026-09-26T16:33:27.421Z"
     },
     {
       "id": "devpost-gatewayhacks-2026-software-ai",
@@ -405,7 +405,7 @@
       ],
       "prize_inr": 3600000,
       "rounds": [],
-      "last_seen": "2026-09-26T07:55:58.753Z"
+      "last_seen": "2026-09-26T16:33:27.421Z"
     },
     {
       "id": "devpost-mlai-hackathon-2026",
@@ -439,7 +439,7 @@
       ],
       "prize_inr": 225000,
       "rounds": [],
-      "last_seen": "2026-09-26T07:55:58.753Z"
+      "last_seen": "2026-09-26T16:33:27.421Z"
     }
   ]
 }
