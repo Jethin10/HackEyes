@@ -171,9 +171,9 @@
         "model": "unstop-detail-api",
         "confidence": 1,
         "needs_review": false,
-        "parsed_at": "2026-09-27T17:06:22.065Z"
+        "parsed_at": "2026-09-28T08:52:36.582Z"
       },
-      "source_hash": "sha256:c79c8f0c2b083f33406d892feb725deb454d864b1724e187ce6d351989cc82d5",
+      "source_hash": "sha256:5388b5e9a8f6db89d8c3d2dc0f069609a0bb069a53d7a8e74c891cd05caa26c2",
       "last_seen": "2026-08-23T21:40:37.502Z"
     },
     {
@@ -233,9 +233,9 @@
         "model": "unstop-detail-api",
         "confidence": 1,
         "needs_review": false,
-        "parsed_at": "2026-09-27T17:06:22.065Z"
+        "parsed_at": "2026-09-28T08:52:36.582Z"
       },
-      "source_hash": "sha256:600c46a0e7c6b90c2d8ee0af941dbc707870134a10560204e4db5bcd07837446",
+      "source_hash": "sha256:fbce31611a6ac7eb94f05b50304bc119c6c2df44ffa10b37bf93ae1e5bdf1ede",
       "last_seen": "2026-08-23T21:40:45.048Z",
       "sent": [
         "r2:T-7d",
@@ -251,7 +251,7 @@
       "source": "devpost",
       "url": "https://webmcp.devpost.com/",
       "detected_by": "discovery",
-      "status": "candidate",
+      "status": "passed",
       "mode": "online",
       "location": "Online",
       "tags": [
@@ -279,7 +279,7 @@
       ],
       "prize_inr": 4500000,
       "rounds": [],
-      "last_seen": "2026-09-27T17:06:22.065Z"
+      "last_seen": "2026-09-28T08:52:36.582Z"
     },
     {
       "id": "devpost-build-ship-shape-amazon-developer-hackathon",
@@ -297,7 +297,7 @@
       ],
       "prize_inr": 12420000,
       "rounds": [],
-      "last_seen": "2026-09-27T17:06:22.065Z"
+      "last_seen": "2026-09-28T08:52:36.582Z"
     },
     {
       "id": "devpost-opencv-ai-competition-2026-powered-by-aws",
@@ -315,7 +315,7 @@
       ],
       "prize_inr": 1822500,
       "rounds": [],
-      "last_seen": "2026-09-27T17:06:22.065Z"
+      "last_seen": "2026-09-28T08:52:36.582Z"
     },
     {
       "id": "devpost-gatewayhacks-2026-software-ai",
@@ -405,7 +405,7 @@
       ],
       "prize_inr": 3600000,
       "rounds": [],
-      "last_seen": "2026-09-27T17:06:22.065Z"
+      "last_seen": "2026-09-28T08:52:36.582Z"
     },
     {
       "id": "devpost-mlai-hackathon-2026",
@@ -439,7 +439,25 @@
       ],
       "prize_inr": 225000,
       "rounds": [],
-      "last_seen": "2026-09-27T17:06:22.065Z"
+      "last_seen": "2026-09-28T08:52:36.582Z"
+    },
+    {
+      "id": "devpost-meta-vr-start-developer-competition-2026",
+      "name": "Meta VR Start Developer Competition 2026",
+      "source": "devpost",
+      "url": "https://start-developer-competition-26.devpost.com/",
+      "detected_by": "discovery",
+      "status": "candidate",
+      "tags": [
+        "ar/vr",
+        "machine learning/ai",
+        "web"
+      ],
+      "mode": "online",
+      "location": "Online",
+      "prize_inr": 90000000,
+      "rounds": [],
+      "last_seen": "2026-09-28T08:52:36.582Z"
     }
   ]
 }
