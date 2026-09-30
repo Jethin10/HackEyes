@@ -171,9 +171,9 @@
         "model": "unstop-detail-api",
         "confidence": 1,
         "needs_review": false,
-        "parsed_at": "2026-09-29T18:09:41.150Z"
+        "parsed_at": "2026-09-30T08:52:34.735Z"
       },
-      "source_hash": "sha256:4c59eb751954bfac28b33cc0860f8bc2b2e143554c65a542bcca6ade1581f6ad",
+      "source_hash": "sha256:9f40936a09206374bf181d788d3c93015035a0f0af19efab8072d2ff52ecb7b9",
       "last_seen": "2026-08-23T21:40:37.502Z"
     },
     {
@@ -233,9 +233,9 @@
         "model": "unstop-detail-api",
         "confidence": 1,
         "needs_review": false,
-        "parsed_at": "2026-09-29T18:09:41.150Z"
+        "parsed_at": "2026-09-30T08:52:34.735Z"
       },
-      "source_hash": "sha256:7551c254f5ce5ff852c39ba2f03874ab56e5a273c3f64cb5843a04eceee95670",
+      "source_hash": "sha256:313ac917d0c5bcae5f7fdee257fdf3d0e06f75d4130a2b36c2bd31d0a3017a20",
       "last_seen": "2026-08-23T21:40:45.048Z",
       "sent": [
         "r2:T-7d",
@@ -279,7 +279,7 @@
       ],
       "prize_inr": 4500000,
       "rounds": [],
-      "last_seen": "2026-09-29T18:09:41.150Z"
+      "last_seen": "2026-09-30T08:52:34.735Z"
     },
     {
       "id": "devpost-build-ship-shape-amazon-developer-hackathon",
@@ -297,7 +297,7 @@
       ],
       "prize_inr": 12420000,
       "rounds": [],
-      "last_seen": "2026-09-29T18:09:41.150Z"
+      "last_seen": "2026-09-30T08:52:34.735Z"
     },
     {
       "id": "devpost-opencv-ai-competition-2026-powered-by-aws",
@@ -315,7 +315,7 @@
       ],
       "prize_inr": 1822500,
       "rounds": [],
-      "last_seen": "2026-09-29T18:09:41.150Z"
+      "last_seen": "2026-09-30T08:52:34.735Z"
     },
     {
       "id": "devpost-gatewayhacks-2026-software-ai",
@@ -405,7 +405,7 @@
       ],
       "prize_inr": 3600000,
       "rounds": [],
-      "last_seen": "2026-09-29T18:09:41.150Z"
+      "last_seen": "2026-09-30T08:52:34.735Z"
     },
     {
       "id": "devpost-mlai-hackathon-2026",
@@ -439,7 +439,7 @@
       ],
       "prize_inr": 225000,
       "rounds": [],
-      "last_seen": "2026-09-29T18:09:41.150Z"
+      "last_seen": "2026-09-30T08:52:34.735Z"
     },
     {
       "id": "devpost-meta-vr-start-developer-competition-2026",
@@ -457,7 +457,7 @@
       ],
       "prize_inr": 90000000,
       "rounds": [],
-      "last_seen": "2026-09-29T18:09:41.150Z"
+      "last_seen": "2026-09-30T08:52:34.735Z"
     }
   ]
 }
