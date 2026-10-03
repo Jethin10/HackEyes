@@ -171,9 +171,9 @@
         "model": "unstop-detail-api",
         "confidence": 1,
         "needs_review": false,
-        "parsed_at": "2026-10-03T08:26:40.144Z"
+        "parsed_at": "2026-10-03T16:33:12.822Z"
       },
-      "source_hash": "sha256:45bbc1d6407dee0eb3971a8df0ad5dfaefb6c884b3906b375cf22f861fef4567",
+      "source_hash": "sha256:e319a80b7cb357c3cf630394403a5af30e14844b3bbb383699b457fbc8384f2c",
       "last_seen": "2026-08-23T21:40:37.502Z"
     },
     {
@@ -233,9 +233,9 @@
         "model": "unstop-detail-api",
         "confidence": 1,
         "needs_review": false,
-        "parsed_at": "2026-10-03T08:26:40.144Z"
+        "parsed_at": "2026-10-03T16:33:12.822Z"
       },
-      "source_hash": "sha256:a66862b9c26ec9a4ad72c5129c8d9407a55c993d3f14251a2cc090e4fa5a31b6",
+      "source_hash": "sha256:b6260954914cd8e1ad4d76230421b3f513fde85f12fa247eb90efc91b161bca4",
       "last_seen": "2026-08-23T21:40:45.048Z",
       "sent": [
         "r2:T-7d",
@@ -279,7 +279,7 @@
       ],
       "prize_inr": 4500000,
       "rounds": [],
-      "last_seen": "2026-10-03T08:26:40.144Z"
+      "last_seen": "2026-10-03T16:33:12.822Z"
     },
     {
       "id": "devpost-build-ship-shape-amazon-developer-hackathon",
@@ -297,7 +297,7 @@
       ],
       "prize_inr": 12420000,
       "rounds": [],
-      "last_seen": "2026-10-03T08:26:40.144Z"
+      "last_seen": "2026-10-03T16:33:12.822Z"
     },
     {
       "id": "devpost-opencv-ai-competition-2026-powered-by-aws",
@@ -315,7 +315,7 @@
       ],
       "prize_inr": 1822500,
       "rounds": [],
-      "last_seen": "2026-10-03T08:26:40.144Z"
+      "last_seen": "2026-10-03T16:33:12.822Z"
     },
     {
       "id": "devpost-gatewayhacks-2026-software-ai",
@@ -405,7 +405,7 @@
       ],
       "prize_inr": 3600000,
       "rounds": [],
-      "last_seen": "2026-10-03T08:26:40.144Z"
+      "last_seen": "2026-10-03T16:33:12.822Z"
     },
     {
       "id": "devpost-mlai-hackathon-2026",
@@ -439,7 +439,7 @@
       ],
       "prize_inr": 225000,
       "rounds": [],
-      "last_seen": "2026-10-03T08:26:40.144Z"
+      "last_seen": "2026-10-03T16:33:12.822Z"
     },
     {
       "id": "devpost-meta-vr-start-developer-competition-2026",
@@ -457,7 +457,7 @@
       ],
       "prize_inr": 90000000,
       "rounds": [],
-      "last_seen": "2026-10-03T08:26:40.144Z"
+      "last_seen": "2026-10-03T16:33:12.822Z"
     },
     {
       "id": "devpost-multimodal-ai-hackathon-2026",
@@ -473,7 +473,7 @@
       ],
       "prize_inr": 100000,
       "rounds": [],
-      "last_seen": "2026-10-03T08:26:40.144Z"
+      "last_seen": "2026-10-03T16:33:12.822Z"
     },
     {
       "id": "devpost-paypal-ai-hackathon",
@@ -491,7 +491,7 @@
       ],
       "prize_inr": 6075000,
       "rounds": [],
-      "last_seen": "2026-10-03T08:26:40.144Z"
+      "last_seen": "2026-10-03T16:33:12.822Z"
     },
     {
       "id": "devpost-warriorhacks-2-0",
@@ -508,7 +508,7 @@
         "open ended"
       ],
       "rounds": [],
-      "last_seen": "2026-10-03T08:26:40.144Z"
+      "last_seen": "2026-10-03T16:33:12.822Z"
     }
   ]
 }
