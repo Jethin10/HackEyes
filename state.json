@@ -171,9 +171,9 @@
         "model": "unstop-detail-api",
         "confidence": 1,
         "needs_review": false,
-        "parsed_at": "2026-10-23T07:49:40.684Z"
+        "parsed_at": "2026-10-23T17:19:30.407Z"
       },
-      "source_hash": "sha256:524d4d8c8f09436d121403804c8ad1e20407a116155703b3f49ea60e94790895",
+      "source_hash": "sha256:0ec0017e822bba3a3e020a3ecb1a0fe17f75a3533628742054bd693fb6e40dc0",
       "last_seen": "2026-08-23T21:40:37.502Z"
     },
     {
@@ -233,9 +233,9 @@
         "model": "unstop-detail-api",
         "confidence": 1,
         "needs_review": false,
-        "parsed_at": "2026-10-23T07:49:40.684Z"
+        "parsed_at": "2026-10-23T17:19:30.407Z"
       },
-      "source_hash": "sha256:ce1a2664ee83aadce7870398dd2b79330b2b23a031aa78e0a4baf907d70d1a09",
+      "source_hash": "sha256:10df1c0af21ddc138c8e98fa55e5e330332c368eb282f5acfbeb6aac4d2f0d89",
       "last_seen": "2026-08-23T21:40:45.048Z",
       "sent": [
         "r2:T-7d",
@@ -279,7 +279,7 @@
       ],
       "prize_inr": 4500000,
       "rounds": [],
-      "last_seen": "2026-10-23T07:49:40.684Z"
+      "last_seen": "2026-10-23T17:19:30.407Z"
     },
     {
       "id": "devpost-build-ship-shape-amazon-developer-hackathon",
@@ -457,7 +457,7 @@
       ],
       "prize_inr": 90000000,
       "rounds": [],
-      "last_seen": "2026-10-23T07:49:40.684Z"
+      "last_seen": "2026-10-23T17:19:30.407Z"
     },
     {
       "id": "devpost-multimodal-ai-hackathon-2026",
@@ -491,7 +491,7 @@
       ],
       "prize_inr": 6075000,
       "rounds": [],
-      "last_seen": "2026-10-23T07:49:40.684Z"
+      "last_seen": "2026-10-23T17:19:30.407Z"
     },
     {
       "id": "devpost-warriorhacks-2-0",
@@ -526,7 +526,7 @@
       ],
       "prize_inr": 4050000,
       "rounds": [],
-      "last_seen": "2026-10-23T07:49:40.684Z"
+      "last_seen": "2026-10-23T17:19:30.407Z"
     },
     {
       "id": "devpost-forgehacks-online-2026",
@@ -560,7 +560,7 @@
       ],
       "prize_inr": 2250000,
       "rounds": [],
-      "last_seen": "2026-10-23T07:49:40.684Z"
+      "last_seen": "2026-10-23T17:19:30.407Z"
     }
   ]
 }
