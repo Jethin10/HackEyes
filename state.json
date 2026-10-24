@@ -171,9 +171,9 @@
         "model": "unstop-detail-api",
         "confidence": 1,
         "needs_review": false,
-        "parsed_at": "2026-10-23T17:19:30.407Z"
+        "parsed_at": "2026-10-24T07:31:12.294Z"
       },
-      "source_hash": "sha256:0ec0017e822bba3a3e020a3ecb1a0fe17f75a3533628742054bd693fb6e40dc0",
+      "source_hash": "sha256:f6efb9a50052ca204c7e44c17f191b75710c89efbc37421000650b8725f05353",
       "last_seen": "2026-08-23T21:40:37.502Z"
     },
     {
@@ -233,9 +233,9 @@
         "model": "unstop-detail-api",
         "confidence": 1,
         "needs_review": false,
-        "parsed_at": "2026-10-23T17:19:30.407Z"
+        "parsed_at": "2026-10-24T07:31:12.294Z"
       },
-      "source_hash": "sha256:10df1c0af21ddc138c8e98fa55e5e330332c368eb282f5acfbeb6aac4d2f0d89",
+      "source_hash": "sha256:8ac9e9f3fbd9b6553838615f713f035693e136cfa3ab699301f61694bbe51ace",
       "last_seen": "2026-08-23T21:40:45.048Z",
       "sent": [
         "r2:T-7d",
@@ -279,7 +279,7 @@
       ],
       "prize_inr": 4500000,
       "rounds": [],
-      "last_seen": "2026-10-23T17:19:30.407Z"
+      "last_seen": "2026-10-24T07:31:12.294Z"
     },
     {
       "id": "devpost-build-ship-shape-amazon-developer-hackathon",
@@ -457,7 +457,7 @@
       ],
       "prize_inr": 90000000,
       "rounds": [],
-      "last_seen": "2026-10-23T17:19:30.407Z"
+      "last_seen": "2026-10-24T07:31:12.294Z"
     },
     {
       "id": "devpost-multimodal-ai-hackathon-2026",
@@ -491,7 +491,7 @@
       ],
       "prize_inr": 6075000,
       "rounds": [],
-      "last_seen": "2026-10-23T17:19:30.407Z"
+      "last_seen": "2026-10-24T07:31:12.294Z"
     },
     {
       "id": "devpost-warriorhacks-2-0",
@@ -526,7 +526,7 @@
       ],
       "prize_inr": 4050000,
       "rounds": [],
-      "last_seen": "2026-10-23T17:19:30.407Z"
+      "last_seen": "2026-10-24T07:31:12.294Z"
     },
     {
       "id": "devpost-forgehacks-online-2026",
@@ -560,7 +560,25 @@
       ],
       "prize_inr": 2250000,
       "rounds": [],
-      "last_seen": "2026-10-23T17:19:30.407Z"
+      "last_seen": "2026-10-24T07:31:12.294Z"
+    },
+    {
+      "id": "devpost-youcam-api-skin-ai-ecommerce-vto-hackathon",
+      "name": "YouCam API Skin AI & eCommerce VTO Hackathon",
+      "source": "devpost",
+      "url": "https://youcam-api-skin-ai-ecommerce.devpost.com/",
+      "detected_by": "discovery",
+      "status": "candidate",
+      "tags": [
+        "ar/vr",
+        "e-commerce/retail",
+        "machine learning/ai"
+      ],
+      "mode": "online",
+      "location": "Online",
+      "prize_inr": 540000,
+      "rounds": [],
+      "last_seen": "2026-10-24T07:31:12.294Z"
     }
   ]
 }
