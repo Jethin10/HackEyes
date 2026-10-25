@@ -171,9 +171,9 @@
         "model": "unstop-detail-api",
         "confidence": 1,
         "needs_review": false,
-        "parsed_at": "2026-10-24T16:08:12.125Z"
+        "parsed_at": "2026-10-25T07:44:29.687Z"
       },
-      "source_hash": "sha256:f3df8bdd624968635800e3f38ccba78b9ea7a4f08e4b803492305818fa60db55",
+      "source_hash": "sha256:81099fd507523654a46595dad876727e3f6027c31a804f173ef9d0a04a74a29c",
       "last_seen": "2026-08-23T21:40:37.502Z"
     },
     {
@@ -233,9 +233,9 @@
         "model": "unstop-detail-api",
         "confidence": 1,
         "needs_review": false,
-        "parsed_at": "2026-10-24T16:08:12.125Z"
+        "parsed_at": "2026-10-25T07:44:29.687Z"
       },
-      "source_hash": "sha256:1ea000af9798e8ef034c6407be2b04b8ae08e214f6fd666884c0b84a5418cfae",
+      "source_hash": "sha256:9aa74f16f659f3d0f1bde62d98128fe389cf08a1c5ddf3cef07cf4c9557c7bbf",
       "last_seen": "2026-08-23T21:40:45.048Z",
       "sent": [
         "r2:T-7d",
@@ -413,7 +413,7 @@
       "source": "devpost",
       "url": "https://mlai-hackathon.devpost.com/",
       "detected_by": "discovery",
-      "status": "candidate",
+      "status": "passed",
       "mode": "online",
       "location": "Online",
       "tags": [
@@ -457,7 +457,7 @@
       ],
       "prize_inr": 90000000,
       "rounds": [],
-      "last_seen": "2026-10-24T16:08:12.125Z"
+      "last_seen": "2026-10-25T07:44:29.687Z"
     },
     {
       "id": "devpost-multimodal-ai-hackathon-2026",
@@ -491,7 +491,7 @@
       ],
       "prize_inr": 6075000,
       "rounds": [],
-      "last_seen": "2026-10-24T16:08:12.125Z"
+      "last_seen": "2026-10-25T07:44:29.687Z"
     },
     {
       "id": "devpost-warriorhacks-2-0",
@@ -526,7 +526,7 @@
       ],
       "prize_inr": 4050000,
       "rounds": [],
-      "last_seen": "2026-10-24T16:08:12.125Z"
+      "last_seen": "2026-10-25T07:44:29.687Z"
     },
     {
       "id": "devpost-forgehacks-online-2026",
@@ -578,7 +578,7 @@
       ],
       "prize_inr": 540000,
       "rounds": [],
-      "last_seen": "2026-10-24T16:08:12.125Z"
+      "last_seen": "2026-10-25T07:44:29.687Z"
     }
   ]
 }
