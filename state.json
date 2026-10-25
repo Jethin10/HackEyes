@@ -171,9 +171,9 @@
         "model": "unstop-detail-api",
         "confidence": 1,
         "needs_review": false,
-        "parsed_at": "2026-10-25T07:44:29.687Z"
+        "parsed_at": "2026-10-25T16:38:15.739Z"
       },
-      "source_hash": "sha256:81099fd507523654a46595dad876727e3f6027c31a804f173ef9d0a04a74a29c",
+      "source_hash": "sha256:916efb2d03b7f295fb02c56f061d363276e2c664c29163dfaad76116d893ce7b",
       "last_seen": "2026-08-23T21:40:37.502Z"
     },
     {
@@ -233,9 +233,9 @@
         "model": "unstop-detail-api",
         "confidence": 1,
         "needs_review": false,
-        "parsed_at": "2026-10-25T07:44:29.687Z"
+        "parsed_at": "2026-10-25T16:38:15.739Z"
       },
-      "source_hash": "sha256:9aa74f16f659f3d0f1bde62d98128fe389cf08a1c5ddf3cef07cf4c9557c7bbf",
+      "source_hash": "sha256:47c6e909c214f3bfc036f93b60aac3b2563df6305e54d140b4aa33a0f32e2828",
       "last_seen": "2026-08-23T21:40:45.048Z",
       "sent": [
         "r2:T-7d",
@@ -457,7 +457,7 @@
       ],
       "prize_inr": 90000000,
       "rounds": [],
-      "last_seen": "2026-10-25T07:44:29.687Z"
+      "last_seen": "2026-10-25T16:38:15.739Z"
     },
     {
       "id": "devpost-multimodal-ai-hackathon-2026",
@@ -491,7 +491,7 @@
       ],
       "prize_inr": 6075000,
       "rounds": [],
-      "last_seen": "2026-10-25T07:44:29.687Z"
+      "last_seen": "2026-10-25T16:38:15.739Z"
     },
     {
       "id": "devpost-warriorhacks-2-0",
@@ -526,7 +526,7 @@
       ],
       "prize_inr": 4050000,
       "rounds": [],
-      "last_seen": "2026-10-25T07:44:29.687Z"
+      "last_seen": "2026-10-25T16:38:15.739Z"
     },
     {
       "id": "devpost-forgehacks-online-2026",
@@ -578,7 +578,7 @@
       ],
       "prize_inr": 540000,
       "rounds": [],
-      "last_seen": "2026-10-25T07:44:29.687Z"
+      "last_seen": "2026-10-25T16:38:15.739Z"
     }
   ]
 }
