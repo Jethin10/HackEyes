@@ -171,9 +171,9 @@
         "model": "unstop-detail-api",
         "confidence": 1,
         "needs_review": false,
-        "parsed_at": "2026-10-26T08:00:52.508Z"
+        "parsed_at": "2026-10-26T18:44:37.885Z"
       },
-      "source_hash": "sha256:3b6ffcdc3ce95a0268c8f81141ea45a63bf6b7dd0aee9aba1ff25dbc124c129d",
+      "source_hash": "sha256:9af6e5a2a71a1163df1772d35f21f316f81226e947bc03b70d9ade8a6295427e",
       "last_seen": "2026-08-23T21:40:37.502Z",
       "sent": [
         "r2:T-7d"
@@ -236,9 +236,9 @@
         "model": "unstop-detail-api",
         "confidence": 1,
         "needs_review": false,
-        "parsed_at": "2026-10-26T08:00:52.508Z"
+        "parsed_at": "2026-10-26T18:44:37.885Z"
       },
-      "source_hash": "sha256:70f5e8b284373c664826f4539bef831ae4efb394eb2bfb3331f3572de8636d75",
+      "source_hash": "sha256:a5f251f015a5ebf4064facf3256fac710f00a6bd8e3f73a389492b40b55cb2b3",
       "last_seen": "2026-08-23T21:40:45.048Z",
       "sent": [
         "r2:T-7d",
@@ -460,7 +460,7 @@
       ],
       "prize_inr": 90000000,
       "rounds": [],
-      "last_seen": "2026-10-26T08:00:52.508Z"
+      "last_seen": "2026-10-26T18:44:37.885Z"
     },
     {
       "id": "devpost-multimodal-ai-hackathon-2026",
@@ -494,7 +494,7 @@
       ],
       "prize_inr": 6075000,
       "rounds": [],
-      "last_seen": "2026-10-26T08:00:52.508Z"
+      "last_seen": "2026-10-26T18:44:37.885Z"
     },
     {
       "id": "devpost-warriorhacks-2-0",
@@ -529,7 +529,7 @@
       ],
       "prize_inr": 4050000,
       "rounds": [],
-      "last_seen": "2026-10-26T08:00:52.508Z"
+      "last_seen": "2026-10-26T18:44:37.885Z"
     },
     {
       "id": "devpost-forgehacks-online-2026",
@@ -581,7 +581,25 @@
       ],
       "prize_inr": 540000,
       "rounds": [],
-      "last_seen": "2026-10-26T08:00:52.508Z"
+      "last_seen": "2026-10-26T18:44:37.885Z"
+    },
+    {
+      "id": "devpost-codex-x-twitchcon-hackathon",
+      "name": "Codex x TwitchCon Hackathon",
+      "source": "devpost",
+      "url": "https://twitchcon-codex.devpost.com/",
+      "detected_by": "discovery",
+      "status": "candidate",
+      "tags": [
+        "communication",
+        "gaming",
+        "machine learning/ai"
+      ],
+      "mode": "online",
+      "location": "Online",
+      "prize_inr": 2250000,
+      "rounds": [],
+      "last_seen": "2026-10-26T18:44:37.885Z"
     }
   ]
 }
