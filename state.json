@@ -171,10 +171,13 @@
         "model": "unstop-detail-api",
         "confidence": 1,
         "needs_review": false,
-        "parsed_at": "2026-10-25T16:38:15.739Z"
+        "parsed_at": "2026-10-26T08:00:52.508Z"
       },
-      "source_hash": "sha256:916efb2d03b7f295fb02c56f061d363276e2c664c29163dfaad76116d893ce7b",
-      "last_seen": "2026-08-23T21:40:37.502Z"
+      "source_hash": "sha256:3b6ffcdc3ce95a0268c8f81141ea45a63bf6b7dd0aee9aba1ff25dbc124c129d",
+      "last_seen": "2026-08-23T21:40:37.502Z",
+      "sent": [
+        "r2:T-7d"
+      ]
     },
     {
       "id": "unstop-1730805",
@@ -233,9 +236,9 @@
         "model": "unstop-detail-api",
         "confidence": 1,
         "needs_review": false,
-        "parsed_at": "2026-10-25T16:38:15.739Z"
+        "parsed_at": "2026-10-26T08:00:52.508Z"
       },
-      "source_hash": "sha256:47c6e909c214f3bfc036f93b60aac3b2563df6305e54d140b4aa33a0f32e2828",
+      "source_hash": "sha256:70f5e8b284373c664826f4539bef831ae4efb394eb2bfb3331f3572de8636d75",
       "last_seen": "2026-08-23T21:40:45.048Z",
       "sent": [
         "r2:T-7d",
@@ -341,7 +344,7 @@
       "source": "devpost",
       "url": "https://gibc-v2.devpost.com/",
       "detected_by": "discovery",
-      "status": "candidate",
+      "status": "passed",
       "mode": "online",
       "location": "Online",
       "tags": [
@@ -457,7 +460,7 @@
       ],
       "prize_inr": 90000000,
       "rounds": [],
-      "last_seen": "2026-10-25T16:38:15.739Z"
+      "last_seen": "2026-10-26T08:00:52.508Z"
     },
     {
       "id": "devpost-multimodal-ai-hackathon-2026",
@@ -491,7 +494,7 @@
       ],
       "prize_inr": 6075000,
       "rounds": [],
-      "last_seen": "2026-10-25T16:38:15.739Z"
+      "last_seen": "2026-10-26T08:00:52.508Z"
     },
     {
       "id": "devpost-warriorhacks-2-0",
@@ -526,7 +529,7 @@
       ],
       "prize_inr": 4050000,
       "rounds": [],
-      "last_seen": "2026-10-25T16:38:15.739Z"
+      "last_seen": "2026-10-26T08:00:52.508Z"
     },
     {
       "id": "devpost-forgehacks-online-2026",
@@ -578,7 +581,7 @@
       ],
       "prize_inr": 540000,
       "rounds": [],
-      "last_seen": "2026-10-25T16:38:15.739Z"
+      "last_seen": "2026-10-26T08:00:52.508Z"
     }
   ]
 }
