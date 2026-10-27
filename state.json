@@ -171,9 +171,9 @@
         "model": "unstop-detail-api",
         "confidence": 1,
         "needs_review": false,
-        "parsed_at": "2026-10-26T18:44:37.885Z"
+        "parsed_at": "2026-10-27T08:13:09.816Z"
       },
-      "source_hash": "sha256:9af6e5a2a71a1163df1772d35f21f316f81226e947bc03b70d9ade8a6295427e",
+      "source_hash": "sha256:f3ac009ab408651e0e63a08852c42a381ca304b9f4d379c0fa28b182001556db",
       "last_seen": "2026-08-23T21:40:37.502Z",
       "sent": [
         "r2:T-7d"
@@ -236,9 +236,9 @@
         "model": "unstop-detail-api",
         "confidence": 1,
         "needs_review": false,
-        "parsed_at": "2026-10-26T18:44:37.885Z"
+        "parsed_at": "2026-10-27T08:13:09.816Z"
       },
-      "source_hash": "sha256:a5f251f015a5ebf4064facf3256fac710f00a6bd8e3f73a389492b40b55cb2b3",
+      "source_hash": "sha256:093b8603c9b8064778a90a75d4404d044bef1833cb75d01ba9b81399f3ce2f82",
       "last_seen": "2026-08-23T21:40:45.048Z",
       "sent": [
         "r2:T-7d",
@@ -460,7 +460,7 @@
       ],
       "prize_inr": 90000000,
       "rounds": [],
-      "last_seen": "2026-10-26T18:44:37.885Z"
+      "last_seen": "2026-10-27T08:13:09.816Z"
     },
     {
       "id": "devpost-multimodal-ai-hackathon-2026",
@@ -494,7 +494,7 @@
       ],
       "prize_inr": 6075000,
       "rounds": [],
-      "last_seen": "2026-10-26T18:44:37.885Z"
+      "last_seen": "2026-10-27T08:13:09.816Z"
     },
     {
       "id": "devpost-warriorhacks-2-0",
@@ -529,7 +529,7 @@
       ],
       "prize_inr": 4050000,
       "rounds": [],
-      "last_seen": "2026-10-26T18:44:37.885Z"
+      "last_seen": "2026-10-27T08:13:09.816Z"
     },
     {
       "id": "devpost-forgehacks-online-2026",
@@ -581,7 +581,7 @@
       ],
       "prize_inr": 540000,
       "rounds": [],
-      "last_seen": "2026-10-26T18:44:37.885Z"
+      "last_seen": "2026-10-27T08:13:09.816Z"
     },
     {
       "id": "devpost-codex-x-twitchcon-hackathon",
@@ -590,16 +590,34 @@
       "url": "https://twitchcon-codex.devpost.com/",
       "detected_by": "discovery",
       "status": "candidate",
+      "mode": "online",
+      "location": "Online",
       "tags": [
         "communication",
         "gaming",
         "machine learning/ai"
       ],
-      "mode": "online",
-      "location": "Online",
       "prize_inr": 2250000,
       "rounds": [],
-      "last_seen": "2026-10-26T18:44:37.885Z"
+      "last_seen": "2026-10-27T08:13:09.816Z"
+    },
+    {
+      "id": "devpost-learn-ar-with-specs",
+      "name": "Learn AR with SPECS",
+      "source": "devpost",
+      "url": "https://learn-specs.devpost.com/",
+      "detected_by": "discovery",
+      "status": "candidate",
+      "tags": [
+        "ar/vr",
+        "machine learning/ai",
+        "design"
+      ],
+      "mode": "online",
+      "location": "Online",
+      "prize_inr": 225000,
+      "rounds": [],
+      "last_seen": "2026-10-27T08:13:09.816Z"
     }
   ]
 }
