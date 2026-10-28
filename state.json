@@ -171,9 +171,9 @@
         "model": "unstop-detail-api",
         "confidence": 1,
         "needs_review": false,
-        "parsed_at": "2026-10-27T18:07:47.638Z"
+        "parsed_at": "2026-10-28T08:51:57.407Z"
       },
-      "source_hash": "sha256:8270032a414ecc468d144c7642bf8dd3b3d6584e4a26a155c7c317dc7b9a0878",
+      "source_hash": "sha256:22beb45e290822b7792e8c490ce0d3fff4da17cc3040449cf020b939115f4006",
       "last_seen": "2026-08-23T21:40:37.502Z",
       "sent": [
         "r2:T-7d"
@@ -236,9 +236,9 @@
         "model": "unstop-detail-api",
         "confidence": 1,
         "needs_review": false,
-        "parsed_at": "2026-10-27T18:07:47.638Z"
+        "parsed_at": "2026-10-28T08:51:57.407Z"
       },
-      "source_hash": "sha256:a803d3eb95137972e81d0ccd21613c478c5f2f4890afeefdea53709d80e1cd02",
+      "source_hash": "sha256:69c718e5148abe6f76db1b71d2d3822fe4938216398872967f331b69b702a79f",
       "last_seen": "2026-08-23T21:40:45.048Z",
       "sent": [
         "r2:T-7d",
@@ -460,7 +460,7 @@
       ],
       "prize_inr": 90000000,
       "rounds": [],
-      "last_seen": "2026-10-27T18:07:47.638Z"
+      "last_seen": "2026-10-28T08:51:57.407Z"
     },
     {
       "id": "devpost-multimodal-ai-hackathon-2026",
@@ -494,7 +494,7 @@
       ],
       "prize_inr": 6075000,
       "rounds": [],
-      "last_seen": "2026-10-27T18:07:47.638Z"
+      "last_seen": "2026-10-28T08:51:57.407Z"
     },
     {
       "id": "devpost-warriorhacks-2-0",
@@ -617,7 +617,7 @@
       ],
       "prize_inr": 225000,
       "rounds": [],
-      "last_seen": "2026-10-27T18:07:47.638Z"
+      "last_seen": "2026-10-28T08:51:57.407Z"
     },
     {
       "id": "devpost-ugreen-hackathon-2026-on-ai-nas",
@@ -626,16 +626,16 @@
       "url": "https://ugreenhackathon.devpost.com/",
       "detected_by": "discovery",
       "status": "candidate",
+      "mode": "online",
+      "location": "Online",
       "tags": [
         "lifehacks",
         "machine learning/ai",
         "productivity"
       ],
-      "mode": "online",
-      "location": "Online",
       "prize_inr": 4140000,
       "rounds": [],
-      "last_seen": "2026-10-27T18:07:47.638Z"
+      "last_seen": "2026-10-28T08:51:57.407Z"
     }
   ]
 }
