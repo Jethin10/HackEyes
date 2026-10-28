@@ -171,9 +171,9 @@
         "model": "unstop-detail-api",
         "confidence": 1,
         "needs_review": false,
-        "parsed_at": "2026-10-28T08:51:57.407Z"
+        "parsed_at": "2026-10-28T18:24:34.878Z"
       },
-      "source_hash": "sha256:22beb45e290822b7792e8c490ce0d3fff4da17cc3040449cf020b939115f4006",
+      "source_hash": "sha256:c26c1cd8a454df7b9e983b515f477b1f98a936fc5aa64b0204dfa3b4cbe95040",
       "last_seen": "2026-08-23T21:40:37.502Z",
       "sent": [
         "r2:T-7d"
@@ -236,9 +236,9 @@
         "model": "unstop-detail-api",
         "confidence": 1,
         "needs_review": false,
-        "parsed_at": "2026-10-28T08:51:57.407Z"
+        "parsed_at": "2026-10-28T18:24:34.878Z"
       },
-      "source_hash": "sha256:69c718e5148abe6f76db1b71d2d3822fe4938216398872967f331b69b702a79f",
+      "source_hash": "sha256:969887d1676baecd92f84df17945cc311e5169d396b8c00580ff8c32a91a38bd",
       "last_seen": "2026-08-23T21:40:45.048Z",
       "sent": [
         "r2:T-7d",
@@ -460,7 +460,7 @@
       ],
       "prize_inr": 90000000,
       "rounds": [],
-      "last_seen": "2026-10-28T08:51:57.407Z"
+      "last_seen": "2026-10-28T18:24:34.878Z"
     },
     {
       "id": "devpost-multimodal-ai-hackathon-2026",
@@ -494,7 +494,7 @@
       ],
       "prize_inr": 6075000,
       "rounds": [],
-      "last_seen": "2026-10-28T08:51:57.407Z"
+      "last_seen": "2026-10-28T18:24:34.878Z"
     },
     {
       "id": "devpost-warriorhacks-2-0",
@@ -617,7 +617,7 @@
       ],
       "prize_inr": 225000,
       "rounds": [],
-      "last_seen": "2026-10-28T08:51:57.407Z"
+      "last_seen": "2026-10-28T18:24:34.878Z"
     },
     {
       "id": "devpost-ugreen-hackathon-2026-on-ai-nas",
@@ -635,7 +635,7 @@
       ],
       "prize_inr": 4140000,
       "rounds": [],
-      "last_seen": "2026-10-28T08:51:57.407Z"
+      "last_seen": "2026-10-28T18:24:34.878Z"
     }
   ]
 }
