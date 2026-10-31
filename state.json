@@ -171,9 +171,9 @@
         "model": "unstop-detail-api",
         "confidence": 1,
         "needs_review": false,
-        "parsed_at": "2026-10-30T18:06:52.321Z"
+        "parsed_at": "2026-10-31T08:40:49.175Z"
       },
-      "source_hash": "sha256:c6d3972220623ba9fbd01f1ecc5be1086aee39ea40bef02188ff4cee3c3152f4",
+      "source_hash": "sha256:a79be25dae77d1763a38abb8da494c8c1a8f89bb32c56689335898776b2d4147",
       "last_seen": "2026-08-23T21:40:37.502Z",
       "sent": [
         "r2:T-7d",
@@ -238,9 +238,9 @@
         "model": "unstop-detail-api",
         "confidence": 1,
         "needs_review": false,
-        "parsed_at": "2026-10-30T18:06:52.321Z"
+        "parsed_at": "2026-10-31T08:40:49.175Z"
       },
-      "source_hash": "sha256:5043ab51100abe0d16901f39f6cdcac949d0ec6a1a8bba125d713c5a50ea5c21",
+      "source_hash": "sha256:01f48bbe28ea85124da5468f0693233a50beb4ed14ec4c6ff06cb88aaaa2fdf0",
       "last_seen": "2026-08-23T21:40:45.048Z",
       "sent": [
         "r2:T-7d",
@@ -462,7 +462,7 @@
       ],
       "prize_inr": 90000000,
       "rounds": [],
-      "last_seen": "2026-10-30T18:06:52.321Z"
+      "last_seen": "2026-10-31T08:40:49.175Z"
     },
     {
       "id": "devpost-multimodal-ai-hackathon-2026",
@@ -496,7 +496,7 @@
       ],
       "prize_inr": 6075000,
       "rounds": [],
-      "last_seen": "2026-10-30T18:06:52.321Z"
+      "last_seen": "2026-10-31T08:40:49.175Z"
     },
     {
       "id": "devpost-warriorhacks-2-0",
@@ -619,7 +619,7 @@
       ],
       "prize_inr": 225000,
       "rounds": [],
-      "last_seen": "2026-10-30T18:06:52.321Z"
+      "last_seen": "2026-10-31T08:40:49.175Z"
     },
     {
       "id": "devpost-ugreen-hackathon-2026-on-ai-nas",
@@ -637,7 +637,7 @@
       ],
       "prize_inr": 4140000,
       "rounds": [],
-      "last_seen": "2026-10-30T18:06:52.321Z"
+      "last_seen": "2026-10-31T08:40:49.175Z"
     },
     {
       "id": "devpost-codegeist-2026-build-with-context-ship-with-confidence",
@@ -655,7 +655,7 @@
       ],
       "prize_inr": 10800000,
       "rounds": [],
-      "last_seen": "2026-10-30T18:06:52.321Z"
+      "last_seen": "2026-10-31T08:40:49.175Z"
     },
     {
       "id": "devpost-kiroween-2026",
@@ -664,16 +664,16 @@
       "url": "https://kiroween.devpost.com/",
       "detected_by": "discovery",
       "status": "candidate",
+      "mode": "online",
+      "location": "Online",
       "tags": [
         "beginner friendly",
         "machine learning/ai",
         "open ended"
       ],
-      "mode": "online",
-      "location": "Online",
       "prize_inr": 9000000,
       "rounds": [],
-      "last_seen": "2026-10-30T18:06:52.321Z"
+      "last_seen": "2026-10-31T08:40:49.175Z"
     }
   ]
 }
