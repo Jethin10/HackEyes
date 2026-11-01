@@ -171,15 +171,16 @@
         "model": "unstop-detail-api",
         "confidence": 1,
         "needs_review": false,
-        "parsed_at": "2026-11-01T09:30:59.525Z"
+        "parsed_at": "2026-11-01T18:00:24.555Z"
       },
-      "source_hash": "sha256:241313223f58552d457c4a8c44c9c7b77d7d412f99ced0690f217e11e7583019",
+      "source_hash": "sha256:9b3a474880b7635297a0827040dd0430f7803d4e26645895c32847f07ff5cf82",
       "last_seen": "2026-08-23T21:40:37.502Z",
       "sent": [
         "r2:T-7d",
         "r2:T-72h",
         "r2:opens",
-        "r2:T-24h"
+        "r2:T-24h",
+        "r2:T-6h"
       ]
     },
     {
@@ -239,9 +240,9 @@
         "model": "unstop-detail-api",
         "confidence": 1,
         "needs_review": false,
-        "parsed_at": "2026-11-01T09:30:59.525Z"
+        "parsed_at": "2026-11-01T18:00:24.555Z"
       },
-      "source_hash": "sha256:095b8eb103b8dd9c7faf62936e9261d3a1ab795272d9b5c4461f5f369494f903",
+      "source_hash": "sha256:3453296a4a522ba2bd9a704d31e440e0a604e61e45b2392a53a724e483f482ea",
       "last_seen": "2026-08-23T21:40:45.048Z",
       "sent": [
         "r2:T-7d",
@@ -463,7 +464,7 @@
       ],
       "prize_inr": 90000000,
       "rounds": [],
-      "last_seen": "2026-11-01T09:30:59.525Z"
+      "last_seen": "2026-11-01T18:00:24.555Z"
     },
     {
       "id": "devpost-multimodal-ai-hackathon-2026",
@@ -497,7 +498,7 @@
       ],
       "prize_inr": 6075000,
       "rounds": [],
-      "last_seen": "2026-11-01T09:30:59.525Z"
+      "last_seen": "2026-11-01T18:00:24.555Z"
     },
     {
       "id": "devpost-warriorhacks-2-0",
@@ -620,7 +621,7 @@
       ],
       "prize_inr": 225000,
       "rounds": [],
-      "last_seen": "2026-11-01T09:30:59.525Z"
+      "last_seen": "2026-11-01T18:00:24.555Z"
     },
     {
       "id": "devpost-ugreen-hackathon-2026-on-ai-nas",
@@ -638,7 +639,7 @@
       ],
       "prize_inr": 4140000,
       "rounds": [],
-      "last_seen": "2026-11-01T09:30:59.525Z"
+      "last_seen": "2026-11-01T18:00:24.555Z"
     },
     {
       "id": "devpost-codegeist-2026-build-with-context-ship-with-confidence",
@@ -656,7 +657,7 @@
       ],
       "prize_inr": 10800000,
       "rounds": [],
-      "last_seen": "2026-11-01T09:30:59.525Z"
+      "last_seen": "2026-11-01T18:00:24.555Z"
     },
     {
       "id": "devpost-kiroween-2026",
@@ -674,7 +675,7 @@
       ],
       "prize_inr": 9000000,
       "rounds": [],
-      "last_seen": "2026-11-01T09:30:59.525Z"
+      "last_seen": "2026-11-01T18:00:24.555Z"
     }
   ]
 }
