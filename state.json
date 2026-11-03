@@ -171,9 +171,9 @@
         "model": "unstop-detail-api",
         "confidence": 1,
         "needs_review": false,
-        "parsed_at": "2026-11-02T21:50:06.384Z"
+        "parsed_at": "2026-11-03T09:51:32.226Z"
       },
-      "source_hash": "sha256:3106f68351540490570e235502d6cd727c6468b8d09e12eaee37c0becce3dc95",
+      "source_hash": "sha256:c1c6b231d6630a8f0041bb6ffdc573c4eece0402a457d1e3a00b9223fe5289c3",
       "last_seen": "2026-08-23T21:40:37.502Z",
       "sent": [
         "r2:T-7d",
@@ -240,9 +240,9 @@
         "model": "unstop-detail-api",
         "confidence": 1,
         "needs_review": false,
-        "parsed_at": "2026-11-02T21:50:06.384Z"
+        "parsed_at": "2026-11-03T09:51:32.226Z"
       },
-      "source_hash": "sha256:3af7b9c6acb2d4d195fddaeddf9ef7801f1c61c59bcebef9c1ccf61711d9e095",
+      "source_hash": "sha256:2333482146f3bca166400d41d494a57361799e2d14c61c7e6df6db78539b5595",
       "last_seen": "2026-08-23T21:40:45.048Z",
       "sent": [
         "r2:T-7d",
@@ -464,7 +464,7 @@
       ],
       "prize_inr": 90000000,
       "rounds": [],
-      "last_seen": "2026-11-02T21:50:06.384Z"
+      "last_seen": "2026-11-03T09:51:32.226Z"
     },
     {
       "id": "devpost-multimodal-ai-hackathon-2026",
@@ -498,7 +498,7 @@
       ],
       "prize_inr": 6075000,
       "rounds": [],
-      "last_seen": "2026-11-02T21:50:06.384Z"
+      "last_seen": "2026-11-03T09:51:32.226Z"
     },
     {
       "id": "devpost-warriorhacks-2-0",
@@ -621,7 +621,7 @@
       ],
       "prize_inr": 225000,
       "rounds": [],
-      "last_seen": "2026-11-02T21:50:06.384Z"
+      "last_seen": "2026-11-03T09:51:32.226Z"
     },
     {
       "id": "devpost-ugreen-hackathon-2026-on-ai-nas",
@@ -639,7 +639,7 @@
       ],
       "prize_inr": 4140000,
       "rounds": [],
-      "last_seen": "2026-11-02T21:50:06.384Z"
+      "last_seen": "2026-11-03T09:51:32.226Z"
     },
     {
       "id": "devpost-codegeist-2026-build-with-context-ship-with-confidence",
@@ -657,7 +657,7 @@
       ],
       "prize_inr": 10800000,
       "rounds": [],
-      "last_seen": "2026-11-02T21:50:06.384Z"
+      "last_seen": "2026-11-03T09:51:32.226Z"
     },
     {
       "id": "devpost-kiroween-2026",
@@ -675,7 +675,7 @@
       ],
       "prize_inr": 9000000,
       "rounds": [],
-      "last_seen": "2026-11-02T21:50:06.384Z"
+      "last_seen": "2026-11-03T09:51:32.226Z"
     },
     {
       "id": "devpost-arbiter-hacks-v1",
@@ -684,16 +684,34 @@
       "url": "https://arbiter-hacks-v1.devpost.com/",
       "detected_by": "discovery",
       "status": "candidate",
+      "mode": "online",
+      "location": "Online",
       "tags": [
         "beginner friendly",
         "machine learning/ai",
         "open ended"
       ],
-      "mode": "online",
-      "location": "Online",
       "prize_inr": 702000,
       "rounds": [],
-      "last_seen": "2026-11-02T21:50:06.384Z"
+      "last_seen": "2026-11-03T09:51:32.226Z"
+    },
+    {
+      "id": "devpost-qnx-global-hackathon",
+      "name": "QNX Global Hackathon",
+      "source": "devpost",
+      "url": "https://qnx.devpost.com/",
+      "detected_by": "discovery",
+      "status": "candidate",
+      "tags": [
+        "iot",
+        "machine learning/ai",
+        "open ended"
+      ],
+      "mode": "online",
+      "location": "Online",
+      "prize_inr": 4500000,
+      "rounds": [],
+      "last_seen": "2026-11-03T09:51:32.226Z"
     }
   ]
 }
