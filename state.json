@@ -171,9 +171,9 @@
         "model": "unstop-detail-api",
         "confidence": 1,
         "needs_review": false,
-        "parsed_at": "2026-11-08T17:59:42.400Z"
+        "parsed_at": "2026-11-09T10:05:44.095Z"
       },
-      "source_hash": "sha256:77bd36c3d472ceca5276dd6e6f2f90dffc1ccdb9bc1b3afb7e7f4da5d0b283dd",
+      "source_hash": "sha256:be6007c0703f0875385233e39c8c933900cb31eceb49fb5f797f8bce2a6416f8",
       "last_seen": "2026-08-23T21:40:37.502Z",
       "sent": [
         "r2:T-7d",
@@ -240,9 +240,9 @@
         "model": "unstop-detail-api",
         "confidence": 1,
         "needs_review": false,
-        "parsed_at": "2026-11-08T17:59:42.400Z"
+        "parsed_at": "2026-11-09T10:05:44.095Z"
       },
-      "source_hash": "sha256:b0024fa44032b452538629da21bd683fb4904c11b88fa4b44e5e42fff40dfb75",
+      "source_hash": "sha256:8bd6d0e764d50a7f362887080cd6378b25e430ca519c54eeeaa157399079a0b8",
       "last_seen": "2026-08-23T21:40:45.048Z",
       "sent": [
         "r2:T-7d",
@@ -464,7 +464,7 @@
       ],
       "prize_inr": 90000000,
       "rounds": [],
-      "last_seen": "2026-11-08T17:59:42.400Z"
+      "last_seen": "2026-11-09T10:05:44.095Z"
     },
     {
       "id": "devpost-multimodal-ai-hackathon-2026",
@@ -541,7 +541,7 @@
       "source": "devpost",
       "url": "https://forgehacks-2026.devpost.com/",
       "detected_by": "discovery",
-      "status": "candidate",
+      "status": "passed",
       "mode": "online",
       "location": "Online",
       "tags": [
@@ -639,7 +639,7 @@
       ],
       "prize_inr": 4140000,
       "rounds": [],
-      "last_seen": "2026-11-08T17:59:42.400Z"
+      "last_seen": "2026-11-09T10:05:44.095Z"
     },
     {
       "id": "devpost-codegeist-2026-build-with-context-ship-with-confidence",
@@ -657,7 +657,7 @@
       ],
       "prize_inr": 10800000,
       "rounds": [],
-      "last_seen": "2026-11-08T17:59:42.400Z"
+      "last_seen": "2026-11-09T10:05:44.095Z"
     },
     {
       "id": "devpost-kiroween-2026",
@@ -675,7 +675,7 @@
       ],
       "prize_inr": 9000000,
       "rounds": [],
-      "last_seen": "2026-11-08T17:59:42.400Z"
+      "last_seen": "2026-11-09T10:05:44.095Z"
     },
     {
       "id": "devpost-arbiter-hacks-v1",
@@ -711,7 +711,7 @@
       ],
       "prize_inr": 4500000,
       "rounds": [],
-      "last_seen": "2026-11-08T17:59:42.400Z"
+      "last_seen": "2026-11-09T10:05:44.095Z"
     },
     {
       "id": "mlh-solana-hackathon",
@@ -727,6 +727,24 @@
       ],
       "rounds": [],
       "last_seen": "2026-11-03T19:40:50.512Z"
+    },
+    {
+      "id": "devpost-aws-msp-ai-hackathon",
+      "name": "AWS MSP AI Hackathon",
+      "source": "devpost",
+      "url": "https://aws-agentic-msp.devpost.com/",
+      "detected_by": "discovery",
+      "status": "candidate",
+      "tags": [
+        "machine learning/ai",
+        "productivity",
+        "web"
+      ],
+      "mode": "online",
+      "location": "Online",
+      "prize_inr": 5760000,
+      "rounds": [],
+      "last_seen": "2026-11-09T10:05:44.095Z"
     }
   ]
 }
