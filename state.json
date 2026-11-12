@@ -171,9 +171,9 @@
         "model": "unstop-detail-api",
         "confidence": 1,
         "needs_review": false,
-        "parsed_at": "2026-11-11T19:45:34.789Z"
+        "parsed_at": "2026-11-12T10:04:19.694Z"
       },
-      "source_hash": "sha256:bb19770912de1ab047b286821367d88dc7ec26dacc46124dd2ed1c4a0820385c",
+      "source_hash": "sha256:db8a0021dc148f00f1e0e58d3b004c0f49bad904b438d2bcf3e1a8b0805ba0ef",
       "last_seen": "2026-08-23T21:40:37.502Z",
       "sent": [
         "r2:T-7d",
@@ -240,9 +240,9 @@
         "model": "unstop-detail-api",
         "confidence": 1,
         "needs_review": false,
-        "parsed_at": "2026-11-11T19:45:34.789Z"
+        "parsed_at": "2026-11-12T10:04:19.694Z"
       },
-      "source_hash": "sha256:838191d2d990a7c3813184fe4c1459a6c6dc2bd0810931abc2fa05888607a901",
+      "source_hash": "sha256:e1b059799d7f5d17aa608340346a316485693d35b2d07641cc6f129217df3a9b",
       "last_seen": "2026-08-23T21:40:45.048Z",
       "sent": [
         "r2:T-7d",
@@ -464,7 +464,7 @@
       ],
       "prize_inr": 90000000,
       "rounds": [],
-      "last_seen": "2026-11-11T19:45:34.789Z"
+      "last_seen": "2026-11-12T10:04:19.694Z"
     },
     {
       "id": "devpost-multimodal-ai-hackathon-2026",
@@ -657,7 +657,7 @@
       ],
       "prize_inr": 10800000,
       "rounds": [],
-      "last_seen": "2026-11-11T19:45:34.789Z"
+      "last_seen": "2026-11-12T10:04:19.694Z"
     },
     {
       "id": "devpost-kiroween-2026",
@@ -675,7 +675,7 @@
       ],
       "prize_inr": 9000000,
       "rounds": [],
-      "last_seen": "2026-11-11T19:45:34.789Z"
+      "last_seen": "2026-11-12T10:04:19.694Z"
     },
     {
       "id": "devpost-arbiter-hacks-v1",
@@ -693,7 +693,7 @@
       ],
       "prize_inr": 702000,
       "rounds": [],
-      "last_seen": "2026-11-11T19:45:34.789Z"
+      "last_seen": "2026-11-12T10:04:19.694Z"
     },
     {
       "id": "devpost-qnx-global-hackathon",
@@ -711,7 +711,7 @@
       ],
       "prize_inr": 4500000,
       "rounds": [],
-      "last_seen": "2026-11-11T19:45:34.789Z"
+      "last_seen": "2026-11-12T10:04:19.694Z"
     },
     {
       "id": "mlh-solana-hackathon",
@@ -762,6 +762,24 @@
       ],
       "rounds": [],
       "last_seen": "2026-11-11T19:45:34.789Z"
+    },
+    {
+      "id": "devpost-buildhybridai-2026",
+      "name": "#BuildHybridAI 2026",
+      "source": "devpost",
+      "url": "https://firebasehybridaihackathon.devpost.com/",
+      "detected_by": "discovery",
+      "status": "candidate",
+      "tags": [
+        "machine learning/ai",
+        "mobile",
+        "web"
+      ],
+      "mode": "online",
+      "location": "Online",
+      "prize_inr": 2700000,
+      "rounds": [],
+      "last_seen": "2026-11-12T10:04:19.694Z"
     }
   ]
 }
