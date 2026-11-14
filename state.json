@@ -171,9 +171,9 @@
         "model": "unstop-detail-api",
         "confidence": 1,
         "needs_review": false,
-        "parsed_at": "2026-11-13T19:54:38.448Z"
+        "parsed_at": "2026-11-14T09:14:42.542Z"
       },
-      "source_hash": "sha256:2ff500f1588f930876c0ef5c59f140fc18a91805a77b3be25b3f1001b21d4382",
+      "source_hash": "sha256:9b65c4a47de625de8810b320af0b338227cc951251390a41f8225d536fa04103",
       "last_seen": "2026-08-23T21:40:37.502Z",
       "sent": [
         "r2:T-7d",
@@ -240,9 +240,9 @@
         "model": "unstop-detail-api",
         "confidence": 1,
         "needs_review": false,
-        "parsed_at": "2026-11-13T19:54:38.448Z"
+        "parsed_at": "2026-11-14T09:14:42.542Z"
       },
-      "source_hash": "sha256:1a101c293525fe16bda10a97b80d2d6a32f71971a17ac46ddb205bead4180cd1",
+      "source_hash": "sha256:d34c90200c9ea3bd71ebf921586f272c2b59c9adbe50b490f18b7155b19c5b4f",
       "last_seen": "2026-08-23T21:40:45.048Z",
       "sent": [
         "r2:T-7d",
@@ -657,7 +657,7 @@
       ],
       "prize_inr": 10800000,
       "rounds": [],
-      "last_seen": "2026-11-13T19:54:38.448Z"
+      "last_seen": "2026-11-14T09:14:42.542Z"
     },
     {
       "id": "devpost-kiroween-2026",
@@ -675,7 +675,7 @@
       ],
       "prize_inr": 9000000,
       "rounds": [],
-      "last_seen": "2026-11-13T19:54:38.448Z"
+      "last_seen": "2026-11-14T09:14:42.542Z"
     },
     {
       "id": "devpost-arbiter-hacks-v1",
@@ -693,7 +693,7 @@
       ],
       "prize_inr": 702000,
       "rounds": [],
-      "last_seen": "2026-11-13T19:54:38.448Z"
+      "last_seen": "2026-11-14T09:14:42.542Z"
     },
     {
       "id": "devpost-qnx-global-hackathon",
@@ -711,7 +711,7 @@
       ],
       "prize_inr": 4500000,
       "rounds": [],
-      "last_seen": "2026-11-13T19:54:38.448Z"
+      "last_seen": "2026-11-14T09:14:42.542Z"
     },
     {
       "id": "mlh-solana-hackathon",
@@ -779,7 +779,7 @@
       ],
       "prize_inr": 2700000,
       "rounds": [],
-      "last_seen": "2026-11-13T19:54:38.448Z"
+      "last_seen": "2026-11-14T09:14:42.542Z"
     }
   ]
 }
