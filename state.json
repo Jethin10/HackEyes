@@ -171,9 +171,9 @@
         "model": "unstop-detail-api",
         "confidence": 1,
         "needs_review": false,
-        "parsed_at": "2026-11-14T18:21:38.219Z"
+        "parsed_at": "2026-11-15T09:45:08.240Z"
       },
-      "source_hash": "sha256:c81b6d04fb28b000868625b41ddbd2694aede634ef9c7ad1732ef86447e09277",
+      "source_hash": "sha256:bcb8548c5e52d4729f458a3b63825480be63e59054ca88d38304f2dd4a8af6c9",
       "last_seen": "2026-08-23T21:40:37.502Z",
       "sent": [
         "r2:T-7d",
@@ -240,9 +240,9 @@
         "model": "unstop-detail-api",
         "confidence": 1,
         "needs_review": false,
-        "parsed_at": "2026-11-14T18:21:38.219Z"
+        "parsed_at": "2026-11-15T09:45:08.240Z"
       },
-      "source_hash": "sha256:871219ca049f7db5e63ca67182d245c98ef4aa520f63df95299ad04444fb6e14",
+      "source_hash": "sha256:90d3c9c4e0e664357e05cf6995c67168b1938d98c8ec65ac2755107a323b77eb",
       "last_seen": "2026-08-23T21:40:45.048Z",
       "sent": [
         "r2:T-7d",
@@ -657,7 +657,7 @@
       ],
       "prize_inr": 10800000,
       "rounds": [],
-      "last_seen": "2026-11-14T18:21:38.219Z"
+      "last_seen": "2026-11-15T09:45:08.240Z"
     },
     {
       "id": "devpost-kiroween-2026",
@@ -675,7 +675,7 @@
       ],
       "prize_inr": 9000000,
       "rounds": [],
-      "last_seen": "2026-11-14T18:21:38.219Z"
+      "last_seen": "2026-11-15T09:45:08.240Z"
     },
     {
       "id": "devpost-arbiter-hacks-v1",
@@ -693,7 +693,7 @@
       ],
       "prize_inr": 702000,
       "rounds": [],
-      "last_seen": "2026-11-14T18:21:38.219Z"
+      "last_seen": "2026-11-15T09:45:08.240Z"
     },
     {
       "id": "devpost-qnx-global-hackathon",
@@ -711,7 +711,7 @@
       ],
       "prize_inr": 4500000,
       "rounds": [],
-      "last_seen": "2026-11-14T18:21:38.219Z"
+      "last_seen": "2026-11-15T09:45:08.240Z"
     },
     {
       "id": "mlh-solana-hackathon",
@@ -779,7 +779,25 @@
       ],
       "prize_inr": 2700000,
       "rounds": [],
-      "last_seen": "2026-11-14T18:21:38.219Z"
+      "last_seen": "2026-11-15T09:45:08.240Z"
+    },
+    {
+      "id": "devpost-open-agentic-web-challenge",
+      "name": "Open Agentic Web Challenge",
+      "source": "devpost",
+      "url": "https://cognizant-agenticweb.devpost.com/",
+      "detected_by": "discovery",
+      "status": "candidate",
+      "tags": [
+        "machine learning/ai",
+        "web",
+        "social good"
+      ],
+      "mode": "online",
+      "location": "Online",
+      "prize_inr": 900000,
+      "rounds": [],
+      "last_seen": "2026-11-15T09:45:08.240Z"
     }
   ]
 }
