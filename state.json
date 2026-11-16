@@ -171,9 +171,9 @@
         "model": "unstop-detail-api",
         "confidence": 1,
         "needs_review": false,
-        "parsed_at": "2026-11-15T18:59:39.448Z"
+        "parsed_at": "2026-11-16T10:01:25.720Z"
       },
-      "source_hash": "sha256:ed4ceadbbfe8d970538468146344e4aa2f4340b6b2c82cf2c6b9ca90dda4897a",
+      "source_hash": "sha256:de3d400b36d442f7092cb4e2d46b60e90ffd22b52b20934e2922ed23caa26b85",
       "last_seen": "2026-08-23T21:40:37.502Z",
       "sent": [
         "r2:T-7d",
@@ -240,9 +240,9 @@
         "model": "unstop-detail-api",
         "confidence": 1,
         "needs_review": false,
-        "parsed_at": "2026-11-15T18:59:39.448Z"
+        "parsed_at": "2026-11-16T10:01:25.720Z"
       },
-      "source_hash": "sha256:f6c36e044eb28dcdb0d209e91b3584452157727a2ef34069d2b79f374511e563",
+      "source_hash": "sha256:4c1b601bd0a75cb55227d9e519939523c1617ddedf85c2a9023aa0ee7fa8cffd",
       "last_seen": "2026-08-23T21:40:45.048Z",
       "sent": [
         "r2:T-7d",
@@ -657,7 +657,7 @@
       ],
       "prize_inr": 10800000,
       "rounds": [],
-      "last_seen": "2026-11-15T18:59:39.448Z"
+      "last_seen": "2026-11-16T10:01:25.720Z"
     },
     {
       "id": "devpost-kiroween-2026",
@@ -675,7 +675,7 @@
       ],
       "prize_inr": 9000000,
       "rounds": [],
-      "last_seen": "2026-11-15T18:59:39.448Z"
+      "last_seen": "2026-11-16T10:01:25.720Z"
     },
     {
       "id": "devpost-arbiter-hacks-v1",
@@ -693,7 +693,7 @@
       ],
       "prize_inr": 702000,
       "rounds": [],
-      "last_seen": "2026-11-15T18:59:39.448Z"
+      "last_seen": "2026-11-16T10:01:25.720Z"
     },
     {
       "id": "devpost-qnx-global-hackathon",
@@ -711,7 +711,7 @@
       ],
       "prize_inr": 4500000,
       "rounds": [],
-      "last_seen": "2026-11-15T18:59:39.448Z"
+      "last_seen": "2026-11-16T10:01:25.720Z"
     },
     {
       "id": "mlh-solana-hackathon",
@@ -779,7 +779,7 @@
       ],
       "prize_inr": 2700000,
       "rounds": [],
-      "last_seen": "2026-11-15T18:59:39.448Z"
+      "last_seen": "2026-11-16T10:01:25.720Z"
     },
     {
       "id": "devpost-open-agentic-web-challenge",
@@ -797,7 +797,25 @@
       ],
       "prize_inr": 900000,
       "rounds": [],
-      "last_seen": "2026-11-15T18:59:39.448Z"
+      "last_seen": "2026-11-16T10:01:25.720Z"
+    },
+    {
+      "id": "devpost-deck-the-pixels",
+      "name": "Deck the Pixels",
+      "source": "devpost",
+      "url": "https://deckthepixels.devpost.com/",
+      "detected_by": "discovery",
+      "status": "candidate",
+      "tags": [
+        "design",
+        "machine learning/ai",
+        "low/no code"
+      ],
+      "mode": "online",
+      "location": "Online",
+      "prize_inr": 2250000,
+      "rounds": [],
+      "last_seen": "2026-11-16T10:01:25.720Z"
     }
   ]
 }
