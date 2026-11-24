@@ -171,9 +171,9 @@
         "model": "unstop-detail-api",
         "confidence": 1,
         "needs_review": false,
-        "parsed_at": "2026-11-24T12:48:09.304Z"
+        "parsed_at": "2026-11-24T22:38:43.725Z"
       },
-      "source_hash": "sha256:241b7bb151dfc7b203e4e1290d71ac336d992305a7f74ea9774dbc0db386fd7b",
+      "source_hash": "sha256:be8f5bbb3471013c378e2dd193199fe256ba727409fe858eccdcafcfa4948736",
       "last_seen": "2026-08-23T21:40:37.502Z",
       "sent": [
         "r2:T-7d",
@@ -240,9 +240,9 @@
         "model": "unstop-detail-api",
         "confidence": 1,
         "needs_review": false,
-        "parsed_at": "2026-11-24T12:48:09.304Z"
+        "parsed_at": "2026-11-24T22:38:43.725Z"
       },
-      "source_hash": "sha256:4f0dfd78f08dd18bedaf66719a1d0114f906281e78fb71ed8e81f421c14f2598",
+      "source_hash": "sha256:a218711f01e061e134ee61c4b87b672ef2252c09c07a3362baec2122a0cb07d7",
       "last_seen": "2026-08-23T21:40:45.048Z",
       "sent": [
         "r2:T-7d",
@@ -657,7 +657,7 @@
       ],
       "prize_inr": 10800000,
       "rounds": [],
-      "last_seen": "2026-11-24T12:48:09.304Z"
+      "last_seen": "2026-11-24T22:38:43.725Z"
     },
     {
       "id": "devpost-kiroween-2026",
@@ -675,7 +675,7 @@
       ],
       "prize_inr": 9000000,
       "rounds": [],
-      "last_seen": "2026-11-24T12:48:09.304Z"
+      "last_seen": "2026-11-24T22:38:43.725Z"
     },
     {
       "id": "devpost-arbiter-hacks-v1",
@@ -711,7 +711,7 @@
       ],
       "prize_inr": 4500000,
       "rounds": [],
-      "last_seen": "2026-11-24T12:48:09.304Z"
+      "last_seen": "2026-11-24T22:38:43.725Z"
     },
     {
       "id": "mlh-solana-hackathon",
@@ -744,7 +744,7 @@
       ],
       "prize_inr": 5760000,
       "rounds": [],
-      "last_seen": "2026-11-24T12:48:09.304Z"
+      "last_seen": "2026-11-24T22:38:43.725Z"
     },
     {
       "id": "devpost-code-for-humanity",
@@ -779,7 +779,7 @@
       ],
       "prize_inr": 2700000,
       "rounds": [],
-      "last_seen": "2026-11-24T12:48:09.304Z"
+      "last_seen": "2026-11-24T22:38:43.725Z"
     },
     {
       "id": "devpost-open-agentic-web-challenge",
@@ -797,7 +797,7 @@
       ],
       "prize_inr": 900000,
       "rounds": [],
-      "last_seen": "2026-11-24T12:48:09.304Z"
+      "last_seen": "2026-11-24T22:38:43.725Z"
     },
     {
       "id": "devpost-deck-the-pixels",
@@ -815,7 +815,7 @@
       ],
       "prize_inr": 2250000,
       "rounds": [],
-      "last_seen": "2026-11-24T12:48:09.304Z"
+      "last_seen": "2026-11-24T22:38:43.725Z"
     },
     {
       "id": "devpost-cloud9-x-jetbrains-sky-s-the-limit-hackathon-2026",
@@ -833,7 +833,7 @@
       ],
       "prize_inr": 2250000,
       "rounds": [],
-      "last_seen": "2026-11-24T12:48:09.304Z"
+      "last_seen": "2026-11-24T22:38:43.725Z"
     }
   ]
 }
