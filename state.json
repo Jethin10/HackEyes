@@ -171,9 +171,9 @@
         "model": "unstop-detail-api",
         "confidence": 1,
         "needs_review": false,
-        "parsed_at": "2026-11-26T11:18:01.587Z"
+        "parsed_at": "2026-11-26T21:47:01.960Z"
       },
-      "source_hash": "sha256:a77ef7a8595e6c2c0bbcbaf9fd76e3947f7334d255ce34c701f62f2dabe2cda2",
+      "source_hash": "sha256:bae31caaba280e55e91fdfb79b79bd6093d9d109cada6844161b729fb8b375da",
       "last_seen": "2026-08-23T21:40:37.502Z",
       "sent": [
         "r2:T-7d",
@@ -240,9 +240,9 @@
         "model": "unstop-detail-api",
         "confidence": 1,
         "needs_review": false,
-        "parsed_at": "2026-11-26T11:18:01.587Z"
+        "parsed_at": "2026-11-26T21:47:01.960Z"
       },
-      "source_hash": "sha256:25fb9b7db40d2abd32949ae531365e66eff470722a0bc3c3037e256b519241fb",
+      "source_hash": "sha256:8ebf1f93a127daba7f194176d280d69930250a5cfbf5140e2b1e34739548c67b",
       "last_seen": "2026-08-23T21:40:45.048Z",
       "sent": [
         "r2:T-7d",
@@ -575,7 +575,7 @@
       "source": "devpost",
       "url": "https://youcam-api-skin-ai-ecommerce.devpost.com/",
       "detected_by": "discovery",
-      "status": "candidate",
+      "status": "passed",
       "mode": "online",
       "location": "Online",
       "tags": [
@@ -593,7 +593,7 @@
       "source": "devpost",
       "url": "https://twitchcon-codex.devpost.com/",
       "detected_by": "discovery",
-      "status": "candidate",
+      "status": "passed",
       "mode": "online",
       "location": "Online",
       "tags": [
@@ -657,7 +657,7 @@
       ],
       "prize_inr": 10800000,
       "rounds": [],
-      "last_seen": "2026-11-26T11:18:01.587Z"
+      "last_seen": "2026-11-26T21:47:01.960Z"
     },
     {
       "id": "devpost-kiroween-2026",
@@ -675,7 +675,7 @@
       ],
       "prize_inr": 9000000,
       "rounds": [],
-      "last_seen": "2026-11-26T11:18:01.587Z"
+      "last_seen": "2026-11-26T21:47:01.960Z"
     },
     {
       "id": "devpost-arbiter-hacks-v1",
@@ -711,7 +711,7 @@
       ],
       "prize_inr": 4500000,
       "rounds": [],
-      "last_seen": "2026-11-26T11:18:01.587Z"
+      "last_seen": "2026-11-26T21:47:01.960Z"
     },
     {
       "id": "mlh-solana-hackathon",
@@ -744,7 +744,7 @@
       ],
       "prize_inr": 5760000,
       "rounds": [],
-      "last_seen": "2026-11-26T11:18:01.587Z"
+      "last_seen": "2026-11-26T21:47:01.960Z"
     },
     {
       "id": "devpost-code-for-humanity",
@@ -779,7 +779,7 @@
       ],
       "prize_inr": 2700000,
       "rounds": [],
-      "last_seen": "2026-11-26T11:18:01.587Z"
+      "last_seen": "2026-11-26T21:47:01.960Z"
     },
     {
       "id": "devpost-open-agentic-web-challenge",
@@ -797,7 +797,7 @@
       ],
       "prize_inr": 900000,
       "rounds": [],
-      "last_seen": "2026-11-26T11:18:01.587Z"
+      "last_seen": "2026-11-26T21:47:01.960Z"
     },
     {
       "id": "devpost-deck-the-pixels",
@@ -815,7 +815,7 @@
       ],
       "prize_inr": 2250000,
       "rounds": [],
-      "last_seen": "2026-11-26T11:18:01.587Z"
+      "last_seen": "2026-11-26T21:47:01.960Z"
     },
     {
       "id": "devpost-cloud9-x-jetbrains-sky-s-the-limit-hackathon-2026",
@@ -833,7 +833,7 @@
       ],
       "prize_inr": 2250000,
       "rounds": [],
-      "last_seen": "2026-11-26T11:18:01.587Z"
+      "last_seen": "2026-11-26T21:47:01.960Z"
     }
   ]
 }
